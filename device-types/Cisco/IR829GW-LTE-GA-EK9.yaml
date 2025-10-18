@@ -5,8 +5,8 @@ part_number: IR829GW-LTE-GA-EK9
 u_height: 2
 is_full_depth: true
 comments: |
-  Rugged ISR with integrated LTE and dual-band Wi‑Fi. 1x GE WAN, 4x GE LAN (shared PoE/PoE+ budget ~30W across LAN ports),
-  plus two serial (RS-232 and RS-232/485). Wi‑Fi radios are not modeled as interfaces here.
+  Rugged ISR with integrated LTE and dual-band Wi-Fi. 1x GE WAN, 4x GE LAN (shared PoE/PoE+ budget),
+  plus two serial (RS-232 and RS-232/RS-485). WLAN/WPAN logical interfaces are included.
 
 console-ports:
   - name: con 0
@@ -20,28 +20,41 @@ power-ports:
     description: 9–32 VDC
 
 interfaces:
+  # Routed Ethernet ports
   - name: GigabitEthernet0
     type: 1000base-t
     description: GE WAN
   - name: GigabitEthernet1
     type: 1000base-t
     poe_mode: pse
+    description: GE LAN (PoE/PSE)
   - name: GigabitEthernet2
     type: 1000base-t
     poe_mode: pse
+    description: GE LAN (PoE/PSE)
   - name: GigabitEthernet3
     type: 1000base-t
     poe_mode: pse
+    description: GE LAN (PoE/PSE)
   - name: GigabitEthernet4
     type: 1000base-t
     poe_mode: pse
+    description: GE LAN (PoE/PSE)
   - name: GigabitEthernet5
     type: 1000base-t
-    poe_mode: pse
+    description: Additional GE port (no PoE)
+
+  # Cellular
   - name: Cellular0
     type: lte
-  - name: Cellular1
-    type: lte
+
+  # Logical/radio-linked interfaces exposed by IOS
+  - name: Wlan-GigabitEthernet0
+    type: virtual
+    description: WLAN bridge interface
+  - name: Wpan2
+    type: virtual
+    description: WPAN interface
 
 serial-ports:
   - name: Async0
