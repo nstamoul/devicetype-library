@@ -9,6 +9,8 @@ is_full_depth: false
 interfaces:
   - name: FastEthernet0
     type: 100base-tx
+  - name: GigabitEthernet0
+    type: 1000base-tx
   - name: FastEthernet1
     type: 100base-tx
   - name: FastEthernet2
@@ -16,6 +18,8 @@ interfaces:
   - name: FastEthernet3
     type: 100base-tx
   - name: Cellular0
+    type: lte
+  - name: Cellular1
     type: lte
 
 console-ports:

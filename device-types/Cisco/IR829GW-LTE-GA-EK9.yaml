@@ -36,13 +36,18 @@ interfaces:
   - name: GigabitEthernet4
     type: 1000base-t
     poe_mode: pse
+  - name: GigabitEthernet5
+    type: 1000base-t
+    poe_mode: pse
   - name: Cellular0
+    type: lte
+  - name: Cellular1
     type: lte
 
 serial-ports:
-  - name: Serial0
+  - name: Async0
     type: other
     description: RS-232
-  - name: Serial1
+  - name: Async1
     type: other
     description: RS-232/RS-485
