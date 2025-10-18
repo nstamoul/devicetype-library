@@ -26,8 +26,8 @@ power-ports:
     maximum_draw: 15
 interfaces:
   - name: Eth0
-    type: 1000base-tx
+    type: 1000base-t
   - name: Eth1
-    type: 1000base-tx
+    type: 1000base-t
   - name: Admin
-    type: 1000base-tx
+    type: 1000base-t

@@ -11,13 +11,13 @@ weight_unit: g
 interfaces:
   - name: eth0
     label: PoE IN
-    type: 1000base-tx
+    type: 1000base-t
     poe_mode: pd
     poe_type: type3-ieee802.3bt
     mgmt_only: false
   - name: eth1
     label: PoE OUT
-    type: 1000base-tx
+    type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
     mgmt_only: false

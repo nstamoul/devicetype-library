@@ -22,22 +22,22 @@ interfaces:
     type: 1000base-x-sfp
     label: SFP1
   - name: ether1
-    type: 1000base-tx
+    type: 1000base-t
     label: Ether1
     poe_mode: pd
     poe_type: passive-24v-2pair
     description: POE-IN
   - name: ether2
-    type: 1000base-tx
+    type: 1000base-t
     label: Ether2
   - name: ether3
-    type: 1000base-tx
+    type: 1000base-t
     label: Ether3
   - name: ether4
-    type: 1000base-tx
+    type: 1000base-t
     label: Ether4
   - name: ether5
-    type: 1000base-tx
+    type: 1000base-t
     label: Ether5
     poe_mode: pse
     poe_type: passive-24v-2pair

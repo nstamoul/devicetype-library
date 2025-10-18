@@ -20,17 +20,17 @@ interfaces:
   - name: eth2
     type: 1000base-x-sfp
   - name: eth3
-    type: 1000base-tx
+    type: 1000base-t
   - name: eth4
-    type: 1000base-tx
+    type: 1000base-t
   - name: eth5
-    type: 1000base-tx
+    type: 1000base-t
   - name: eth6
-    type: 1000base-tx
+    type: 1000base-t
   - name: eth7
-    type: 1000base-tx
+    type: 1000base-t
   - name: eth8
-    type: 1000base-tx
+    type: 1000base-t
   - name: MGMT
     type: 100base-tx
     mgmt_only: true

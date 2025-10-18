@@ -32,42 +32,42 @@ interfaces:
     mgmt_only: true
     label: MGMT
   - name: Ethernet1/0/1
-    type: 1000base-tx
+    type: 1000base-t
     enabled: true
     label: '1'
     description: COMBO 1000TX/SFP
   - name: Ethernet1/0/2
-    type: 1000base-tx
+    type: 1000base-t
     enabled: true
     label: '2'
     description: COMBO 1000TX/SFP
   - name: Ethernet1/0/3
-    type: 1000base-tx
+    type: 1000base-t
     enabled: true
     label: '3'
     description: COMBO 1000TX/SFP
   - name: Ethernet1/0/4
-    type: 1000base-tx
+    type: 1000base-t
     enabled: true
     label: '4'
     description: COMBO 1000TX/SFP
   - name: Ethernet1/0/5
-    type: 1000base-tx
+    type: 1000base-t
     enabled: true
     label: '5'
     description: COMBO 1000TX/SFP
   - name: Ethernet1/0/6
-    type: 1000base-tx
+    type: 1000base-t
     enabled: true
     label: '6'
     description: COMBO 1000TX/SFP
   - name: Ethernet1/0/7
-    type: 1000base-tx
+    type: 1000base-t
     enabled: true
     label: '7'
     description: COMBO 1000TX/SFP
   - name: Ethernet1/0/8
-    type: 1000base-tx
+    type: 1000base-t
     enabled: true
     label: '8'
     description: COMBO 1000TX/SFP

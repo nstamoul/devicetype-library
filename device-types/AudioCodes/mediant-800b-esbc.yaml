@@ -31,12 +31,12 @@ interfaces:
   - name: FE_5_8
     type: 100base-tx
   - name: GE_4_1
-    type: 1000base-tx
+    type: 1000base-t
   - name: GE_4_2
-    type: 1000base-tx
+    type: 1000base-t
   - name: GE_4_3
-    type: 1000base-tx
+    type: 1000base-t
   - name: GE_4_4
-    type: 1000base-tx
+    type: 1000base-t
   - name: WAN
-    type: 1000base-tx
+    type: 1000base-t

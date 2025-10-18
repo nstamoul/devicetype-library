@@ -26,7 +26,7 @@ interfaces:
     mgmt_only: false
     label: LAN0
   - name: lan1
-    type: 1000base-tx
+    type: 1000base-t
     enabled: true
     mgmt_only: false
     label: LAN1

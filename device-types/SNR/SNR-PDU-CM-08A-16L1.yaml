@@ -18,7 +18,7 @@ console-server-ports:
     type: rj-45
 interfaces:
   - name: Ethernet
-    type: 1000base-tx
+    type: 1000base-t
     mgmt_only: true
 power-ports:
   - name: Power Port 1

@@ -22,5 +22,5 @@ interfaces:
     type: other
     mgmt_only: false
   - name: Eth0/0
-    type: 1000base-tx
+    type: 1000base-t
     mgmt_only: false

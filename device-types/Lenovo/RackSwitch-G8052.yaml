@@ -15,148 +15,148 @@ console-ports:
     label: Serial
 interfaces:
   - name: '1'
-    type: 1000base-tx
+    type: 1000base-t
     label: '1'
   - name: '2'
-    type: 1000base-tx
+    type: 1000base-t
     label: '2'
   - name: '3'
-    type: 1000base-tx
+    type: 1000base-t
     label: '3'
   - name: '4'
-    type: 1000base-tx
+    type: 1000base-t
     label: '4'
   - name: '5'
-    type: 1000base-tx
+    type: 1000base-t
     label: '5'
   - name: '6'
-    type: 1000base-tx
+    type: 1000base-t
     label: '6'
   - name: '7'
-    type: 1000base-tx
+    type: 1000base-t
     label: '7'
   - name: '8'
-    type: 1000base-tx
+    type: 1000base-t
     label: '8'
   - name: '9'
-    type: 1000base-tx
+    type: 1000base-t
     label: '9'
   - name: '10'
-    type: 1000base-tx
+    type: 1000base-t
     label: '10'
   - name: '11'
-    type: 1000base-tx
+    type: 1000base-t
     label: '11'
   - name: '12'
-    type: 1000base-tx
+    type: 1000base-t
     label: '12'
   - name: '13'
-    type: 1000base-tx
+    type: 1000base-t
     label: '13'
   - name: '14'
-    type: 1000base-tx
+    type: 1000base-t
     label: '14'
   - name: '15'
-    type: 1000base-tx
+    type: 1000base-t
     label: '15'
   - name: '16'
-    type: 1000base-tx
+    type: 1000base-t
     label: '16'
   - name: '17'
-    type: 1000base-tx
+    type: 1000base-t
     label: '17'
   - name: '18'
-    type: 1000base-tx
+    type: 1000base-t
     label: '18'
   - name: '19'
-    type: 1000base-tx
+    type: 1000base-t
     label: '19'
   - name: '20'
-    type: 1000base-tx
+    type: 1000base-t
     label: '20'
   - name: '21'
-    type: 1000base-tx
+    type: 1000base-t
     label: '21'
   - name: '22'
-    type: 1000base-tx
+    type: 1000base-t
     label: '22'
   - name: '23'
-    type: 1000base-tx
+    type: 1000base-t
     label: '23'
   - name: '24'
-    type: 1000base-tx
+    type: 1000base-t
     label: '24'
   - name: '25'
-    type: 1000base-tx
+    type: 1000base-t
     label: '25'
   - name: '26'
-    type: 1000base-tx
+    type: 1000base-t
     label: '26'
   - name: '27'
-    type: 1000base-tx
+    type: 1000base-t
     label: '27'
   - name: '28'
-    type: 1000base-tx
+    type: 1000base-t
     label: '28'
   - name: '29'
-    type: 1000base-tx
+    type: 1000base-t
     label: '29'
   - name: '30'
-    type: 1000base-tx
+    type: 1000base-t
     label: '30'
   - name: '31'
-    type: 1000base-tx
+    type: 1000base-t
     label: '31'
   - name: '32'
-    type: 1000base-tx
+    type: 1000base-t
     label: '32'
   - name: '33'
-    type: 1000base-tx
+    type: 1000base-t
     label: '33'
   - name: '34'
-    type: 1000base-tx
+    type: 1000base-t
     label: '34'
   - name: '35'
-    type: 1000base-tx
+    type: 1000base-t
     label: '35'
   - name: '36'
-    type: 1000base-tx
+    type: 1000base-t
     label: '36'
   - name: '37'
-    type: 1000base-tx
+    type: 1000base-t
     label: '37'
   - name: '38'
-    type: 1000base-tx
+    type: 1000base-t
     label: '38'
   - name: '39'
-    type: 1000base-tx
+    type: 1000base-t
     label: '39'
   - name: '40'
-    type: 1000base-tx
+    type: 1000base-t
     label: '40'
   - name: '41'
-    type: 1000base-tx
+    type: 1000base-t
     label: '41'
   - name: '42'
-    type: 1000base-tx
+    type: 1000base-t
     label: '42'
   - name: '43'
-    type: 1000base-tx
+    type: 1000base-t
     label: '43'
   - name: '44'
-    type: 1000base-tx
+    type: 1000base-t
     label: '44'
   - name: '45'
-    type: 1000base-tx
+    type: 1000base-t
     label: '45'
   - name: '46'
-    type: 1000base-tx
+    type: 1000base-t
     label: '46'
   - name: '47'
-    type: 1000base-tx
+    type: 1000base-t
     label: '47'
   - name: '48'
-    type: 1000base-tx
+    type: 1000base-t
     label: '48'
   - name: XGE1
     type: 10gbase-x-sfpp

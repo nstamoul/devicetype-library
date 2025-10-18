@@ -165,8 +165,8 @@ power-outlets:
     feed_leg: C
 interfaces:
   - name: Management Port 1
-    type: 1000base-tx
+    type: 1000base-t
     mgmt_only: true
   - name: Management Port 2
-    type: 1000base-tx
+    type: 1000base-t
     mgmt_only: true
