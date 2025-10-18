@@ -54,9 +54,9 @@ interfaces:
   - name: Wlan-GigabitEthernet0
     type: virtual
     description: WLAN bridge interface
-  - name: Wpan2
-    type: virtual
-    description: WPAN interface
+  - name: wlan-ap0
+    type: ieee802.11n
+    description: WLAN interface
 
 serial-ports:
   - name: Async0
