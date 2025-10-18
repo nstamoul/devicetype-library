@@ -1,0 +1,34 @@
+---
+manufacturer: Cisco
+model: IR1101
+part_number: IR1101-K9
+slug: cisco-ir1101-k9
+u_height: 1
+is_full_depth: false
+comments: |
+  Base IR1101 rugged router: one combo 1G WAN (RJ45/SFP) and four 10/100 LAN ports.
+  Cellular and extra interfaces are via pluggable modules and not modeled here.
+
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+
+power-ports:
+  - name: DC-IN
+    type: dc-terminal
+    description: 9.6–60 VDC terminal
+
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 1000base-t
+    description: Combo RJ45/SFP WAN (SFP option not modeled)
+  - name: FastEthernet0/0/1
+    type: 100base-tx
+  - name: FastEthernet0/0/2
+    type: 100base-tx
+  - name: FastEthernet0/0/3
+    type: 100base-tx
+  - name: FastEthernet0/0/4
+    type: 100base-tx

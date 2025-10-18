@@ -1,0 +1,48 @@
+---
+manufacturer: Cisco
+model: IR829GW-LTE-GA
+part_number: IR829GW-LTE-GA-EK9
+slug: cisco-ir829gw-lte-ga-ek9
+u_height: 2
+is_full_depth: true
+comments: |
+  Rugged ISR with integrated LTE and dual-band Wi‑Fi. 1x GE WAN, 4x GE LAN (shared PoE/PoE+ budget ~30W across LAN ports),
+  plus two serial (RS-232 and RS-232/485). Wi‑Fi radios are not modeled as interfaces here.
+
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+
+power-ports:
+  - name: DC-IN
+    type: dc-terminal
+    description: 9–32 VDC
+
+interfaces:
+  - name: GigabitEthernet0
+    type: 1000base-t
+    description: GE WAN
+  - name: GigabitEthernet1
+    type: 1000base-t
+    poe_mode: pse
+  - name: GigabitEthernet2
+    type: 1000base-t
+    poe_mode: pse
+  - name: GigabitEthernet3
+    type: 1000base-t
+    poe_mode: pse
+  - name: GigabitEthernet4
+    type: 1000base-t
+    poe_mode: pse
+  - name: Cellular0
+    type: lte
+
+serial-ports:
+  - name: Serial0
+    type: other
+    description: RS-232
+  - name: Serial1
+    type: other
+    description: RS-232/RS-485
