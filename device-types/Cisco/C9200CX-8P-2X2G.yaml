@@ -17,10 +17,6 @@ power-ports:
   type: iec-60320-c14
   maximum_draw: 315
 interfaces:
-- name: GigabitEthernet0/0
-  type: 1000base-t
-  mgmt_only: true
-  vrf: Mgmt-vrf
 - name: GigabitEthernet1/0/1
   type: 1000base-t
   poe_mode: pse
