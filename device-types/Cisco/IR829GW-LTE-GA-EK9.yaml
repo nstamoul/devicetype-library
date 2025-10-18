@@ -47,6 +47,8 @@ interfaces:
   # Cellular
   - name: Cellular0
     type: lte
+  - name: Cellular1
+    type: lte
 
   # Logical/radio-linked interfaces exposed by IOS
   - name: Wlan-GigabitEthernet0
