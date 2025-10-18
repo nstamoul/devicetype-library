@@ -72,8 +72,8 @@ interfaces:
     type: 1000base-t
     description: Combo uplink (shares with Gi0/28 SFP)
   - name: GigabitEthernet0/27
-    type: 1000base-x
+    type: 1000base-x-sfp
     description: SFP combo uplink (shared with Gi0/25 copper)
   - name: GigabitEthernet0/28
-    type: 1000base-x
+    type: 1000base-x-sfp
     description: SFP combo uplink (shared with Gi0/26 copper)
