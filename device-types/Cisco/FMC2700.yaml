@@ -1,7 +1,6 @@
 ---
 manufacturer: Cisco
 model: Cisco FMC2700
-slug: cisco-fmc2700
 part_number: FMC2700
 u_height: 1
 is_full_depth: true

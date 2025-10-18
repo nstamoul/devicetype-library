@@ -1,7 +1,6 @@
 ---
 manufacturer: RAD
 model: ETX-203AM
-slug: rad-etx-203am
 comments: '[RAD ETX-203AM Datasheet](https://www.rad.com/wp-content/uploads/2024/10/etx-2_ds_0.pdf)'
 is_full_depth: false
 u_height: 1

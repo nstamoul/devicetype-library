@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: ClearPass C3000
-slug: hpe-clearpass-c3000
 part_number: JZ510A
 u_height: 1
 is_full_depth: true

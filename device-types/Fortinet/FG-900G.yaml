@@ -1,7 +1,6 @@
 ---
 manufacturer: Fortinet
 model: FortiGate 900G
-slug: fortinet-fg-900g
 part_number: FG-900G
 u_height: 1
 airflow: front-to-rear

@@ -1,7 +1,6 @@
 ---
 manufacturer: Xfusion
 model: 2488H-V6
-slug: xfusion-2488h-v6
 airflow: front-to-rear
 comments: '[Technical Specification 2488H V6 (48DIMM DDR4, 4CPU Intel Xeon 2/3 series, 2PSU)](https://www.xfusion.com/ru/product/rack-server/fusionserver-2488h-v6)'
 u_height: 2

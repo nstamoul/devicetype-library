@@ -1,7 +1,6 @@
 ---
 manufacturer: Cisco
 model: UCS C460 M4
-slug: cisco-ucs-c460-m4
 part_number: UCSC-C460-M4
 u_height: 4
 airflow: front-to-rear

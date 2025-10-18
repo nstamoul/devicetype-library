@@ -1,7 +1,6 @@
 ---
 manufacturer: Xfusion
 model: 5885H-V7-8drives
-slug: xfusion-5885h-v7-8drives
 airflow: front-to-rear
 comments: '[Technical Specification 5885H V7 8 drives(64DIMM DDR5, 4CPU Intel Xeon 4 series, 4PSU, 8*2.5" SATA/NVME)](https://www.xfusion.com/en/product/rack-server/fusionserver-5885h-v7)'
 u_height: 4

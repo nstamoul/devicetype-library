@@ -1,7 +1,6 @@
 ---
 manufacturer: Cisco
 model: Catalyst 9136AXI
-slug: cisco-c9136axi
 u_height: 0
 is_full_depth: false
 airflow: passive

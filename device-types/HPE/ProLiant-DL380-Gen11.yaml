@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: ProLiant DL380 Gen11
-slug: hpe-proliant-dl380-gen11
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear

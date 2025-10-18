@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: FlexFabric 5940 32QSFP+
-slug: hpe-flexfabric-5940-32qsfpp
 part_number: JH396A
 u_height: 1
 is_full_depth: true

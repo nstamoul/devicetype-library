@@ -1,7 +1,6 @@
 ---
 manufacturer: NetApp
 model: AFF-C60 Controller
-slug: netapp-aff-c60-001
 description: AFF C60 HA System Controller
 part_number: AFF-C60-001
 u_height: 0.0

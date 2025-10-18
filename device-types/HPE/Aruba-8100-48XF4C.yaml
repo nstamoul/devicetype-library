@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: Aruba 8100-48XF4C
-slug: hpe-aruba-8100-48xf4c
 part_number: R9W96A # Specs are listed for R9W90A and R9W91A, which are both just R9W96A switches with front-to-back or back-to-front fan modules preinstalled
 u_height: 1
 is_full_depth: false

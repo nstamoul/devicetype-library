@@ -1,7 +1,6 @@
 ---
 manufacturer: Ubiquiti
 model: UniFi Switch Pro Max 48 PoE
-slug: ubiquiti-unifi-switch-pro-max-48-poe
 part_number: USW-Pro-Max-48-PoE
 comments: |
   UniFi Switch 48 Pro Max PoE with total available PoE of 720W. Features (32) Gigabit PoE/PoE+ ports (including 8 PoE++), (16) 2.5GbE PoE++ ports, and (4) 10G SFP+ uplink ports.

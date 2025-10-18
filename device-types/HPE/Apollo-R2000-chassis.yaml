@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: Apollo R2000 Chassis
-slug: hpe-apollo-r2000-chassis
 u_height: 2.0
 is_full_depth: true
 subdevice_role: parent

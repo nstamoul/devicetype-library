@@ -2,7 +2,6 @@
 manufacturer: Fortinet
 model: FortiGate 101E
 part_number: FG-101E
-slug: fortinet-fg-101e
 is_full_depth: false
 u_height: 1
 front_image: true

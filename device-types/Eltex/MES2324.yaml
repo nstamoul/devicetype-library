@@ -1,7 +1,6 @@
 ---
 manufacturer: Eltex
 model: MES2324
-slug: eltex-mes2324
 part_number: MES2324
 is_full_depth: false
 airflow: passive

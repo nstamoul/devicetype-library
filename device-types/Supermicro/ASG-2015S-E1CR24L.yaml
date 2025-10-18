@@ -1,7 +1,6 @@
 ---
 manufacturer: Supermicro
 model: ASG-2015S-E1CR24L
-slug: supermicro-asg-2015s-e1cr24l
 part_number: ASG-2015S-E1CR24L
 comments: "[User's Manual](https://www.supermicro.com/manuals/superstorage/MNL-2628.pdf)<br />[Datasheet](https://www.supermicro.com/en/products/system/datasheet/asg-2015s-e1cr24l)"
 u_height: 2

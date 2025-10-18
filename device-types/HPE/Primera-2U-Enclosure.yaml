@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: Primera 2U Enclosure
-slug: hpe-primera-2u-enclosure
 u_height: 2
 comments: 16x12gSAS + 8x12gSAS/NVMe SFF Storage Enclosure
 weight: 33

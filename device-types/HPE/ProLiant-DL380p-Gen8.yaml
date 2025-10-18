@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: ProLiant DL380p Gen8
-slug: hpe-proliant-dl380p-gen8
 part_number: 653200-B21
 airflow: front-to-rear
 u_height: 2

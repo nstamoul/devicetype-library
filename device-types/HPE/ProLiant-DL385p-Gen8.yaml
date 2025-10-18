@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: ProLiant DL385p Gen8
-slug: hpe-proliant-dl385p-gen8
 part_number: 653203-B21
 airflow: front-to-rear
 u_height: 2

@@ -1,7 +1,6 @@
 ---
 manufacturer: HITACHI
 model: Compute Blade 2000
-slug: hitachi-compute-blade-2000
 u_height: 10
 comments: 10U 8xServer 4xPSU 6xSWITCH Blade Enclosure
 weight: 60

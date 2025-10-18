@@ -1,7 +1,6 @@
 ---
 manufacturer: MikroTik
 model: CRS520-4XS-16XQ
-slug: mikrotik-crs520-4xs-16xq
 part_number: CRS520-4XS-16XQ
 is_full_depth: false
 airflow: front-to-rear

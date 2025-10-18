@@ -1,7 +1,6 @@
 ---
 manufacturer: ExaGrid
 model: EX54
-slug: exagrid-ex54
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear

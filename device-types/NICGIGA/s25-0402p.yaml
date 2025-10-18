@@ -1,7 +1,6 @@
 ---
 manufacturer: NICGIGA
 model: S25-0402P
-slug: nicgiga-s25-0402p
 u_height: 1.0
 is_full_depth: false
 airflow: passive

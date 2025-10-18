@@ -1,7 +1,6 @@
 ---
 manufacturer: MikroTik
 model: CRS326-4C+20G+2Q+RM
-slug: mikrotik-crs326-4c-plus-20g-plus-2q-plus-rm
 part_number: CRS326-4C+20G+2Q+RM
 is_full_depth: false
 airflow: mixed

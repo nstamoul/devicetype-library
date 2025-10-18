@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: ProLiant DX385 Gen10 Plus
-slug: hpe-proliant-dx385-gen10-plus
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear

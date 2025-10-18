@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: ClearPass C1000
-slug: hpe-clearpass-c1000
 part_number: JZ508A
 u_height: 1
 is_full_depth: true

@@ -1,7 +1,6 @@
 ---
 manufacturer: Socomec
 model: Statys-XS-16a
-slug: socomec-statys-xs-16a
 u_height: 1
 is_full_depth: false
 airflow: passive

@@ -1,7 +1,6 @@
 ---
 manufacturer: Longshine
 model: LCS-FS9116-B
-slug: longshine-lcs-fs9116-b
 part_number: GEU-1629
 comments: '[Datasheet](https://cdn-reichelt.de/documents/datenblatt/E910/LCS-FS9116%23LCS.pdf)'
 airflow: left-to-right

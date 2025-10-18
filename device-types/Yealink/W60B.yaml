@@ -1,7 +1,6 @@
 ---
 manufacturer: Yealink
 model: W60B
-slug: yealink-w60b
 part_number: W60B
 comments: '[Yealink W60B Datasheet](https://www.direct.de/pub/media/magecomp/filedownload//y/e/yealink_w60b.pdf)'
 is_full_depth: false

@@ -2,7 +2,6 @@
 manufacturer: Arista
 model: DCS-7060DX5-64S-R
 part_number: DCS-7060DX5-64S-R
-slug: arista-dcs-7060dx5-64s-r
 is_full_depth: true
 u_height: 2
 airflow: rear-to-front

@@ -1,7 +1,6 @@
 ---
 manufacturer: QNAP
 model: TS-883XU-RP
-slug: qnap-ts-883xu-rp
 u_height: 2
 airflow: front-to-rear
 front_image: true

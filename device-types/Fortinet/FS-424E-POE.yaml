@@ -1,7 +1,6 @@
 ---
 manufacturer: Fortinet
 model: FortiSwitch 424E-POE
-slug: fortinet-fs-424e-poe
 part_number: FS-424E-POE
 u_height: 1.0
 is_full_depth: false

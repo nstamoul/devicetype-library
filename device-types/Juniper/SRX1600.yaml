@@ -1,7 +1,6 @@
 ---
 manufacturer: Juniper
 model: SRX1600
-slug: juniper-srx1600
 part_number: SRX1600-CHAS
 comments: |
   [Juniper SRX1600 Data Sheet](https://www.juniper.net/content/dam/www/assets/datasheets/us/en/security/srx1600-firewall-datasheet.pdf)

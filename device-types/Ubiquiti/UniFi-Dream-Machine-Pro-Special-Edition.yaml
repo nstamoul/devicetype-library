@@ -1,7 +1,6 @@
 ---
 manufacturer: Ubiquiti
 model: UniFi Dream Machine Pro Special Edition
-slug: ubiquiti-unifi-dream-machine-pro-special-edition
 part_number: UDM-SE
 airflow: front-to-rear
 comments: |

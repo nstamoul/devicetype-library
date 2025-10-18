@@ -1,7 +1,6 @@
 ---
 manufacturer: Synology
 model: DS1522+
-slug: synology-ds1522-plus
 part_number: DS1522+
 u_height: 0
 airflow: front-to-rear

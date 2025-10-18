@@ -1,7 +1,6 @@
 ---
 manufacturer: Ubiquiti
 model: Unifi G3 Bullet
-slug: ubiquiti-unifi-uvc-g3-bullet
 part_number: UVC-G3-Bullet
 # Ubiquiti does not keep product links up, best I can do is the datasheet
 comments: |

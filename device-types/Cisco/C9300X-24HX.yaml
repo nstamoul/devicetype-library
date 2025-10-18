@@ -2,7 +2,6 @@
 manufacturer: Cisco
 model: C9300X-24HX
 part_number: C9300X-24HX
-slug: cisco-c9300x-24hx
 airflow: front-to-rear
 weight: 6.25
 weight_unit: kg

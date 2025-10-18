@@ -1,7 +1,6 @@
 ---
 manufacturer: Fortinet
 model: FortiAnalyzer 3700G
-slug: fortinet-faz-3700g
 part_number: FAZ-3700G
 u_height: 4
 is_full_depth: true

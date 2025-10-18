@@ -1,7 +1,6 @@
 ---
 manufacturer: SNR
 model: SNR-UPS-ONRT-3000-S72
-slug: snr-snr-ups-onrt-3000-s72
 u_height: 2.0
 is_full_depth: true
 airflow: front-to-rear

@@ -1,7 +1,6 @@
 ---
 manufacturer: UfiSpace
 model: S9510-28DC
-slug: ufispace-s9510-28dc
 u_height: 1
 is_full_depth: false
 airflow: front-to-rear

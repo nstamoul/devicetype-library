@@ -1,7 +1,6 @@
 ---
 manufacturer: Supermicro
 model: SuperServer 6029P-TR
-slug: supermicro-sys-6029p-tr
 part_number: SYS-6029P-TR
 u_height: 2
 is_full_depth: true

@@ -1,7 +1,6 @@
 ---
 manufacturer: NetApp
 model: DS212C
-slug: netapp-ds212c
 u_height: 2
 part_number: DS212C
 comments: FAS2700 12xSAS LFF Storage Expansion Enclosure

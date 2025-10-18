@@ -1,7 +1,6 @@
 ---
 manufacturer: Brocade
 model: ICX 6610-24F
-slug: brocade-icx6610-24f
 part_number: ICX6610-24F
 airflow: front-to-rear
 weight: 6.69

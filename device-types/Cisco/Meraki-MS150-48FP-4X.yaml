@@ -1,7 +1,6 @@
 ---
 manufacturer: Cisco
 model: Meraki MS150-48FP-4X
-slug: cisco-meraki-ms150-48fp-4x
 part_number: MS150-48FP-4X
 airflow: front-to-rear
 weight: 5.4

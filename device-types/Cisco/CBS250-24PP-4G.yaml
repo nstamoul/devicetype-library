@@ -1,7 +1,6 @@
 ---
 manufacturer: Cisco
 model: CBS250-24PP-4G
-slug: cisco-cbs250-24pp-4g
 part_number: CBS250-24PP-4G
 comments: '[CBS250 series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-250-series-smart-switches/nb-06-bus250-smart-switch-ds-cte-en.html)'
 airflow: passive

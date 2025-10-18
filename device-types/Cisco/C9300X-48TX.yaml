@@ -2,7 +2,6 @@
 manufacturer: Cisco
 model: Catalyst 9300X-48TX
 part_number: C9300X-48TX
-slug: cisco-c9300x-48tx
 airflow: front-to-rear
 weight: 6.62
 weight_unit: kg

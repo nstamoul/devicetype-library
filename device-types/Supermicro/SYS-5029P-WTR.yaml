@@ -1,7 +1,6 @@
 ---
 manufacturer: Supermicro
 model: SuperServer 5029P-WTR
-slug: supermicro-sys-5029p-wtr
 part_number: SYS-5029P-WTR
 u_height: 2
 is_full_depth: true

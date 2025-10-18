@@ -1,7 +1,6 @@
 ---
 manufacturer: Lantronix
 model: LANTRONIX-500
-slug: lantronix-500
 airflow: passive
 part_number: LANTRONIX-500
 is_full_depth: false

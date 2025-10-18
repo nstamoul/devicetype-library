@@ -1,7 +1,6 @@
 ---
 manufacturer: Cisco
 model: Nexus 93128TX
-slug: cisco-n9k-c93128tx
 part_number: N9K-C93128TX
 description: Nexus 9300 with 96p 100M/1/10G-T and Expansion Module
 front_image: true

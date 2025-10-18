@@ -1,7 +1,6 @@
 ---
 manufacturer: MikroTik
 model: CRS320-8P-8B-4S+RM
-slug: mikrotik-crs320-8p-8b-4s-plus-rm
 part_number: CRS320-8P-8B-4S+RM
 is_full_depth: false
 airflow: side-to-rear

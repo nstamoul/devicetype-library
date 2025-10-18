@@ -1,7 +1,6 @@
 ---
 manufacturer: Yeastar
 model: TE200
-slug: yeastar-te200
 part_number: Yeastar-TE200
 comments: '[Yeastar TE200 - Dualport VoIP-PRI gateway (E1/T1/J1)](https://yeastar.ru/products/yeastar-te200/)'
 is_full_depth: false

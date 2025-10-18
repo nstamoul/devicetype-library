@@ -1,7 +1,6 @@
 ---
 manufacturer: Ubiquiti
 model: UniFi Switch Pro Max 48
-slug: ubiquiti-unifi-switch-pro-max-48
 part_number: USW-Pro-Max-48
 comments: |
   UniFi Switch 48 Pro Max (non-PoE) with total non-blocking throughput of 112 Gbps. Features (32) Gigabit Ethernet ports, (16) 1/2.5GbE ports, and (4) 10G SFP+ uplink ports.

@@ -1,7 +1,6 @@
 ---
 manufacturer: Datacom
 model: DM2104G2 EDD
-slug: datacom-dm2104g2-edd
 u_height: 1.0
 is_full_depth: true
 airflow: front-to-rear

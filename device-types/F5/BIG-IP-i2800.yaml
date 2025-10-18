@@ -1,7 +1,6 @@
 ---
 manufacturer: F5
 model: BIG-IP i2800
-slug: f5-big-ip-i2800
 part_number: i2800
 #default_platform: TSOM
 u_height: 1

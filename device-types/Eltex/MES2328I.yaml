@@ -1,7 +1,6 @@
 ---
 manufacturer: Eltex
 model: MES2328I
-slug: eltex-mes2328i
 part_number: MES2328i
 is_full_depth: false
 airflow: passive

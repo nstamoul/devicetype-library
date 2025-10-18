@@ -1,7 +1,6 @@
 ---
 manufacturer: Huawei
 model: S5720S-52X-SI-AC
-slug: huawei-s5720-52x-si-ac
 u_height: 1.0
 is_full_depth: false
 airflow: left-to-right

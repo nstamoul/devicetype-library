@@ -1,7 +1,6 @@
 ---
 manufacturer: Fortinet
 model: FortiSIEM 2000F
-slug: fortinet-fsm-2000f
 part_number: FSM-2000F
 u_height: 2
 is_full_depth: false

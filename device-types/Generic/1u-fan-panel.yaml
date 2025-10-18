@@ -1,7 +1,6 @@
 ---
 manufacturer: Generic
 model: 1u-fan-panel
-slug: generic-1u-fan-panel
 u_height: 1
 is_full_depth: true
 airflow: bottom-to-top

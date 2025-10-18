@@ -1,7 +1,6 @@
 ---
 manufacturer: Cisco
 model: Nexus 93120TX
-slug: cisco-n9k-c93120tx
 part_number: N9K-C93120TX
 description: Nexus 9300 with 96p 100M/1/10G-T and 6p 40G QSFP
 front_image: true

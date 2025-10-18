@@ -2,7 +2,6 @@
 manufacturer: Uptime Industries
 # There are 20 bay, 4 bay and 2 bay versions
 model: BladeRunner 1.0 20 blade
-slug: uptime-industries-bladerunner-20
 # There is no official part number that I can find
 # https://docs.computeblade.com/bladerunner/19inch
 part_number: bladerunner-20

@@ -1,7 +1,6 @@
 ---
 manufacturer: Ubiquiti
 model: Enterprise Network Video Recorder
-slug: ubiquiti-enterprise-network-video-recorder
 part_number: ENVR
 airflow: front-to-rear
 comments: |

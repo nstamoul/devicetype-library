@@ -1,7 +1,6 @@
 ---
 manufacturer: Bastion
 model: RAPAN-UPS1000-RACK-IN-2X9
-slug: bastion-rapan-ups1000-rack-in-2x9
 u_height: 2.0
 is_full_depth: true
 airflow: front-to-rear

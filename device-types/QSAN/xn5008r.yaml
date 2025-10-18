@@ -1,7 +1,6 @@
 ---
 manufacturer: QSAN
 model: xn5008r
-slug: qsan-xn5008r
 airflow: front-to-rear
 comments: '[Technical Specification NAS xn5008r (8*3.5 SATA, 4*2.5 SATA, 2*2.5 NVME, 2PSU)](https://qsan.su/product/xn5008r)'
 u_height: 2

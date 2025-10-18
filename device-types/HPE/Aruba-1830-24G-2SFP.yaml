@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: Aruba 1830 24G 2SFP
-slug: hpe-aruba-1830-24g-2sfp
 part_number: JL812A
 u_height: 1
 airflow: passive

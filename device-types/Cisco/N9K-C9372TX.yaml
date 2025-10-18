@@ -2,7 +2,6 @@
 manufacturer: Cisco
 model: Nexus 9372TX
 part_number: N9K-C9372TX
-slug: cisco-n9k-c9372tx
 description: Nexus 9300 with 48p 100M/1/10G-T and 6p 40G QSFP+
 front_image: true
 rear_image: true

@@ -1,7 +1,6 @@
 ---
 manufacturer: Nozomi Networks
 model: NSG-M 750
-slug: nozomi-networks-nsg-m-750
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear

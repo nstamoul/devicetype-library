@@ -1,7 +1,6 @@
 ---
 manufacturer: Datacom
 model: DM2104-4GX
-slug: datacom-dm2104-4gx
 u_height: 1.0
 is_full_depth: true
 airflow: front-to-rear

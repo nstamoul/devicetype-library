@@ -1,7 +1,6 @@
 ---
 manufacturer: Keysight
 model: AresONE-800GER-8P-OSFP-M
-slug: keysight-aresone-800ger-8p-osfp-m
 part_number: 944-1420
 description: Ixia, AresONE 800GER-8P-OSFP-M, High Density, 8-port, restricted performance fixed chassis model with native OSFP800 800GE (PAM4) physical
   interfaces, L1-3, optical transceiver, and copper DAC support

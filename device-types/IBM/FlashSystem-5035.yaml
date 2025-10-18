@@ -1,7 +1,6 @@
 ---
 manufacturer: IBM
 model: FlashSystem 5035
-slug: ibm-flashsystem-5035
 is_full_depth: true
 u_height: 2
 airflow: front-to-rear

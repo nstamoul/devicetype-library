@@ -1,7 +1,6 @@
 ---
 manufacturer: Check Point
 model: SG5400
-slug: check-point-sg5400
 part_number: CPAP-SG5400-NGTP
 u_height: 1
 is_full_depth: true

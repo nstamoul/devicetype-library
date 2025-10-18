@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: 3PAR StoreServ 8200 2node Base
-slug: hpe-3par-storeserv-8200-2node-base
 u_height: 2
 part_number: K2Q35B
 comments: 24xSAS SFF Storage Enclosure

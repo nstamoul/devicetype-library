@@ -1,7 +1,6 @@
 ---
 manufacturer: Supermicro
 model: SuperServer 530MT-H8TNR
-slug: supermicro-sys-530mt-h8tnr
 part_number: SYS-530MT-H8TNR
 u_height: 3
 is_full_depth: true

@@ -1,7 +1,6 @@
 ---
 manufacturer: Kerlink
 model: Wirnet iFemtoCell
-slug: kerlink-wirnet-ifemtocell
 description: LoRaWAN indoor gateway
 u_height: 0.0
 is_full_depth: false

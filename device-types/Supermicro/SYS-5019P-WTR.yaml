@@ -1,7 +1,6 @@
 ---
 manufacturer: Supermicro
 model: SuperServer 5019P-WTR
-slug: supermicro-sys-5019p-wtr
 part_number: SYS-5019P-WTR
 u_height: 1
 is_full_depth: true

@@ -1,7 +1,6 @@
 ---
 manufacturer: Dell
 model: PowerEdge C6420
-slug: dell-poweredge-c6420
 u_height: 0
 is_full_depth: true
 subdevice_role: child

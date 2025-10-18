@@ -1,7 +1,6 @@
 ---
 manufacturer: Kehua
 model: KR2000-RM-Li
-slug: kehua-kr2000-rm-li
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear

@@ -1,7 +1,6 @@
 ---
 manufacturer: Sophos
 model: APX320
-slug: sophos-apx320
 part_number: APX320
 airflow: passive
 front_image: false

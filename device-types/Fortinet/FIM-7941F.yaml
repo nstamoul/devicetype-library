@@ -2,7 +2,6 @@
 manufacturer: Fortinet
 model: Fortinet Interface Module
 part_number: FIM-7941F
-slug: fortinet-fim-7941f
 subdevice_role: child
 is_full_depth: true
 u_height: 2

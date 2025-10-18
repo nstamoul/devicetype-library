@@ -1,7 +1,6 @@
 ---
 manufacturer: Ubiquiti
 model: UniFi Protect Network Video Recorder Pro
-slug: ubiquiti-unifi-protect-network-video-recorder-pro
 part_number: UNVR-Pro
 airflow: front-to-rear
 comments: |

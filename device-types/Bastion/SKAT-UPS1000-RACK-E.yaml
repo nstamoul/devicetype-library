@@ -1,7 +1,6 @@
 ---
 manufacturer: Bastion
 model: SKAT-UPS1000-RACK-E
-slug: bastion-skat-ups1000-rack-e
 u_height: 2.0
 is_full_depth: true
 airflow: front-to-rear

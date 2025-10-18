@@ -1,7 +1,6 @@
 ---
 manufacturer: Cable Matters
 model: 24 Port Keystone Patch Panel
-slug: cable-matters-24-port-keystone-patch-panel
 # Cable Matters appears to use sequential model numbers.
 # I am using a generic but appropriate model number here
 # The part number matches their website

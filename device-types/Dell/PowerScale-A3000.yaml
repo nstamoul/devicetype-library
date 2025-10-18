@@ -1,7 +1,6 @@
 ---
 manufacturer: Dell
 model: PowerScale A3000
-slug: dell-powerscale-a3000
 u_height: 4
 is_full_depth: true
 airflow: front-to-rear

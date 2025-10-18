@@ -2,7 +2,6 @@
 manufacturer: Ubiquiti
 model: E7 Audience US
 part_number: E7-Audience-US
-slug: ubiquiti-e7-audience-us
 u_height: 0
 is_full_depth: false
 airflow: passive

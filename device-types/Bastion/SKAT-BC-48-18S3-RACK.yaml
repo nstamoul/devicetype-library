@@ -1,7 +1,6 @@
 ---
 manufacturer: Bastion
 model: SKAT-BC-48-18S3-RACK
-slug: bastion-skat-bc-48-18s3-rack
 u_height: 2.0
 is_full_depth: true
 airflow: passive

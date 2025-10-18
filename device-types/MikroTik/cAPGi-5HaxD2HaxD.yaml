@@ -1,7 +1,6 @@
 ---
 manufacturer: MikroTik
 model: cAP ax
-slug: mikrotik-cap-ax
 description: MikroTik cAP ax cAPGi-5HaxD2HaxD
 part_number: cAPGi-5HaxD2HaxD
 is_full_depth: false

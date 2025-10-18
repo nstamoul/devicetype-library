@@ -1,7 +1,6 @@
 ---
 manufacturer: LevelOne
 model: GEU-1629
-slug: levelone-geu-1629
 part_number: GEU-1629
 comments: '[Datasheet](https://download.level1.info/datasheet/GEU-1629-V1_SPEC_V1.0.pdf)'
 airflow: left-to-right

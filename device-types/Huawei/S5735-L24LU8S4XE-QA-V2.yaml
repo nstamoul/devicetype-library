@@ -1,7 +1,6 @@
 ---
 manufacturer: Huawei
 model: S5735-L24LU8S4XE-QA-V2
-slug: huawei-s5735-l24lu8s4xe-qa-v2
 description: Switch 8*10/100/1000BASE-T ports(PoE++), 16*10/100/1000BASE-T ports(PoE+), 8*GE SFP ports, 4*10GE SFP+ ports, 2*12GE stack ports, AC power,
   Fanless
 part_number: '98012374'

@@ -1,7 +1,6 @@
 ---
 manufacturer: Ubiquiti
 model: UniFi Pro Max 16 PoE
-slug: ubiquiti-unifi-pro-max-16-poe
 part_number: USW-Pro-Max-16-PoE
 comments: |
   UniFi Pro Max 16 (PoE 180W), 4x 2.5GbE RJ45 (ieee802.3bt), 12 GbE RJ45 (ieee802.3at), 2x 10G SFP+, RGB Port Illumination

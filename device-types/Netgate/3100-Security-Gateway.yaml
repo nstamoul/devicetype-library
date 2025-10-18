@@ -1,7 +1,6 @@
 ---
 manufacturer: Netgate
 model: 3100 Security Gateway
-slug: netgate-3100-security-gateway
 u_height: 1
 is_full_depth: false
 airflow: passive

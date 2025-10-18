@@ -1,7 +1,6 @@
 ---
 manufacturer: Generic
 model: LSH/APC 48-Port Fiber Patch Panel Full Depth
-slug: generic-lsh-apc-48-port-fiber-patch-panel-full-depth
 u_height: 1
 is_full_depth: true
 airflow: passive

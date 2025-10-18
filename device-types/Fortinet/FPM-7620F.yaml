@@ -1,7 +1,6 @@
 ---
 manufacturer: Fortinet
 model: FortiGate Module 7620F
-slug: fortinet-fpm-7620f
 subdevice_role: child
 part_number: FPM-7620F
 u_height: 2

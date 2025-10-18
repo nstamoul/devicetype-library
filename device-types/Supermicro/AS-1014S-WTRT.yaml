@@ -1,7 +1,6 @@
 ---
 manufacturer: Supermicro
 model: SuperServer A+ Server 1014S-WTRT
-slug: supermicro-as-1014s-wtrt
 part_number: AS-1014S-WTRT
 u_height: 1
 is_full_depth: true

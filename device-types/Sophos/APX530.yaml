@@ -1,7 +1,6 @@
 ---
 manufacturer: Sophos
 model: APX530
-slug: sophos-apx530
 part_number: APX530
 airflow: passive
 front_image: false

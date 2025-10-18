@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: StoreOnce 5100
-slug: hpe-storeonce-5100
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear

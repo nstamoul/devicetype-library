@@ -2,7 +2,6 @@
 manufacturer: Cisco
 model: Nexus 9348D-GX2A
 part_number: N9K-C9348D-GX2A
-slug: cisco-n9k-c9348d-gx2a
 u_height: 2
 is_full_depth: true
 console-ports:

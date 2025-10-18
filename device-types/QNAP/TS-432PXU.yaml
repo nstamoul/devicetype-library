@@ -1,7 +1,6 @@
 ---
 manufacturer: QNAP
 model: TS-432PXU
-slug: qnap-ts-432pxu
 part_number: TS-432PXU
 u_height: 1
 airflow: front-to-rear

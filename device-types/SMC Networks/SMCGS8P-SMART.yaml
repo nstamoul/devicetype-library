@@ -1,7 +1,6 @@
 ---
 manufacturer: SMC Networks
 model: SMCGS8P-SMART
-slug: smc-networks-smcgs8p-smart
 part_number: SMCGS8P-SMART
 comments: '[Datasheet](https://www.use-ip.co.uk/datasheets/442/smc_gs8p_8port_gigabit_poe_switch.pdf)'
 airflow: left-to-right

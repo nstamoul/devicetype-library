@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: ClearPass C2000
-slug: hpe-clearpass-c2000
 part_number: JZ509A
 u_height: 1
 is_full_depth: true

@@ -1,7 +1,6 @@
 ---
 manufacturer: Meinberg
 model: Lantime M200
-slug: meinberg-lantime-m200
 description: NTP Server in 1U Desktop Case - Rack mounting possible
 u_height: 1.0
 is_full_depth: false

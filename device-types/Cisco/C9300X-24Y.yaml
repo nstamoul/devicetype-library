@@ -2,7 +2,6 @@
 manufacturer: Cisco
 model: Catalyst 9300X-24Y
 part_number: C9300X-24Y
-slug: cisco-c9300x-24y
 airflow: front-to-rear
 weight: 7.35
 weight_unit: kg

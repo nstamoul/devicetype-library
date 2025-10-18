@@ -1,7 +1,6 @@
 ---
 manufacturer: ZTE
 model: ZXHN H298Q
-slug: zte-zxhn-h298q
 airflow: passive
 comments: |
   ZTE Home Gateway (4) 1G LAN, (1) 1G WAN

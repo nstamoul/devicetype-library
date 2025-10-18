@@ -1,7 +1,6 @@
 ---
 manufacturer: Cisco
 model: UCS-FI-6332-16UP
-slug: cisco-ucs-fi-6332-16up
 part_number: UCS-FI-6332-16UP
 description: 40-port fabric interconnect 16x 1/10G SFP+ (4/8/16G FC), 24x 40G QSFP
 u_height: 1

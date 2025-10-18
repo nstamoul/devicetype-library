@@ -1,7 +1,6 @@
 ---
 manufacturer: Synology
 model: DS918+
-slug: synology-ds918-plus
 part_number: DS918+
 airflow: front-to-rear
 front_image: true

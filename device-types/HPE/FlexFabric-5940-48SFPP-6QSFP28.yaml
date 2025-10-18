@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: FlexFabric 5940 48SFP+ 6QSFP28
-slug: hpe-flexfabric-5940-48sfpp-6qsfp28
 part_number: JH390A
 u_height: 1
 is_full_depth: false

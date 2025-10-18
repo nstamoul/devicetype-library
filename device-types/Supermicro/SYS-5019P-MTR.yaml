@@ -1,7 +1,6 @@
 ---
 manufacturer: Supermicro
 model: SuperServer 5019P-MTR
-slug: supermicro-sys-5019p-mtr
 part_number: SYS-5019P-MTR
 u_height: 1
 is_full_depth: true

@@ -1,7 +1,6 @@
 ---
 manufacturer: Eltex
 model: MES2324FB
-slug: eltex-mes2324fb
 part_number: MES2324FB
 is_full_depth: false
 airflow: front-to-rear

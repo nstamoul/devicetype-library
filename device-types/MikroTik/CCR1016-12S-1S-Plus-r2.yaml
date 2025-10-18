@@ -1,7 +1,6 @@
 ---
 manufacturer: MikroTik
 model: CCR1016-12S-1S+-r2
-slug: mikrotik-ccr1016-12s-1s-plus-r2
 description: '[CCR1016-12S-1S+](https://mikrotik.com/product/CCR1016-12S-1Splus)'
 part_number: CCR1016-12S-1S+r2
 is_full_depth: false

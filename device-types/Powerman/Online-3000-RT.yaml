@@ -1,7 +1,6 @@
 ---
 manufacturer: Powerman
 model: Online-3000-RT
-slug: powerman-online-3000-rt
 u_height: 2.0
 is_full_depth: true
 airflow: front-to-rear

@@ -1,7 +1,6 @@
 ---
 manufacturer: Infoblox
 model: TE-815
-slug: infoblox-te-815
 is_full_depth: false
 u_height: 1
 interfaces:

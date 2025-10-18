@@ -1,7 +1,6 @@
 ---
 manufacturer: Supermicro
 model: SuperServer 6018R-MT
-slug: supermicro-sys-6018r-mt
 part_number: SYS-6018R-MT
 u_height: 1
 is_full_depth: true

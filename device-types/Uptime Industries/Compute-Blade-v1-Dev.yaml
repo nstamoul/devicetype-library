@@ -2,7 +2,6 @@
 manufacturer: Uptime Industries
 # First generation has 3 SKUs: dev, tpm, basic
 model: Compute Blade v1 Dev
-slug: uptime-industries-compute-blade-v1-dev
 # Part number pulled off of sticker on shipping box seen here
 # https://docs.computeblade.com/blade
 part_number: BladeDev-v1-0

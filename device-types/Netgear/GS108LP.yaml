@@ -1,7 +1,6 @@
 ---
 manufacturer: Netgear
 model: GS108LP
-slug: netgear-gs108lp
 u_height: 1.0
 is_full_depth: false
 airflow: passive

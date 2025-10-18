@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: Aruba 1960 24G 2XGT 2SFP+
-slug: hpe-aruba-1960-24g-2xgt-2sfpp
 part_number: JL806A
 u_height: 1
 airflow: passive

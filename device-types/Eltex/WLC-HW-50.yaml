@@ -1,7 +1,6 @@
 ---
 manufacturer: Eltex
 model: WLC-HW-50
-slug: eltex-wlc-hw-50
 u_height: 3
 is_full_depth: true
 airflow: front-to-rear

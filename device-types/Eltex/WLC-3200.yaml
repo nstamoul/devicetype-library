@@ -1,7 +1,6 @@
 ---
 manufacturer: Eltex
 model: WLC-3200
-slug: eltex-wlc-3200
 u_height: 1
 is_full_depth: true
 airflow: front-to-rear

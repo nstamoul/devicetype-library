@@ -1,7 +1,6 @@
 ---
 manufacturer: Juniper
 model: QFX5220-128C
-slug: juniper-qfx5220-128c
 comments: '[Juniper QFX5220 Data Sheet](https://www.juniper.net/us/en/products/switches/qfx-series/qfx5220-switch-datasheet.html)'
 u_height: 4
 is_full_depth: true

@@ -1,7 +1,6 @@
 ---
 manufacturer: Arista
 model: DCS-7050TX-64
-slug: arista-dcs-7050tx-64
 part_number: DCS-7050TX-64
 airflow: front-to-rear
 weight: 8.6

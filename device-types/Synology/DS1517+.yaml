@@ -1,7 +1,6 @@
 ---
 manufacturer: Synology
 model: DS1517+
-slug: synology-ds1517-plus
 part_number: DS1517+
 u_height: 4
 airflow: front-to-rear

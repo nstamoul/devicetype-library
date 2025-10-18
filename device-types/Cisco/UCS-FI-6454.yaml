@@ -1,7 +1,6 @@
 ---
 manufacturer: Cisco
 model: UCS-FI-6454
-slug: cisco-ucs-fi-6454
 part_number: UCS-FI-6454
 description: 54-port fabric interconnect 48x 10/25G SFP28, 6x 40/100G QSFP
 u_height: 1

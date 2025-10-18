@@ -1,7 +1,6 @@
 ---
 manufacturer: NetApp
 model: AFF-C60 Chassis
-slug: netapp-aff-c60-chassis
 description: AFF C60 HA System Chassis
 part_number: AFF-C60A-100-C
 u_height: 2.0

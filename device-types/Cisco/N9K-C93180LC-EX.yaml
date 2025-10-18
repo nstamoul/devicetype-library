@@ -1,7 +1,6 @@
 ---
 manufacturer: Cisco
 model: Nexus 93180LC-EX
-slug: cisco-n9k-c93180lc-ex
 part_number: N9K-C93180LC-EX
 description: Nexus 9K Fixed with up to 32p 40/50G QSFP+ or up to 18p 100G QSFP28
 comments: '[Cisco Nexus 9300-EX Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-742283.pdf)'

@@ -1,7 +1,6 @@
 ---
 manufacturer: Juniper
 model: PTX10002-36QDD
-slug: juniper-ptx10002-36qdd
 u_height: 2.0
 is_full_depth: true
 airflow: front-to-rear

@@ -1,7 +1,6 @@
 ---
 manufacturer: Supermicro
 model: SuperServer 6028R-TR
-slug: supermicro-sys-6028r-tr
 part_number: SYS-6028R-TR
 u_height: 2
 is_full_depth: true

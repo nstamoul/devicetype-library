@@ -2,7 +2,6 @@
 manufacturer: Cisco
 model: Catalyst 9200L-48PL-4X
 part_number: C9200L-48PL-4X
-slug: cisco-c9200l-48pl-4x
 u_height: 1
 airflow: front-to-rear
 weight: 4.8

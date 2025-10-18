@@ -1,7 +1,6 @@
 ---
 manufacturer: Cisco
 model: CBS250-8FP-E-2G
-slug: cisco-cbs250-8fp-e-2g
 part_number: CBS250-8FP-E-2G
 comments: '[CBS250 series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-250-series-smart-switches/nb-06-bus250-smart-switch-ds-cte-en.html)'
 airflow: passive

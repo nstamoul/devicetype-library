@@ -1,7 +1,6 @@
 ---
 manufacturer: Sophos
 model: AP6 420E
-slug: sophos-ap6-420e
 part_number: AP6 420E
 airflow: passive
 front_image: false

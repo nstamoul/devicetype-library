@@ -1,7 +1,6 @@
 ---
 manufacturer: Netgear
 model: XS708T
-slug: netgear-xs708t
 u_height: 1.0
 is_full_depth: false
 airflow: right-to-left

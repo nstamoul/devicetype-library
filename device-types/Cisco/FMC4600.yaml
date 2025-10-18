@@ -1,7 +1,6 @@
 ---
 manufacturer: Cisco
 model: Cisco FMC4600
-slug: cisco-fmc4600
 part_number: FMC4600
 u_height: 1
 is_full_depth: true

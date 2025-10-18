@@ -1,7 +1,6 @@
 ---
 manufacturer: F5
 model: BIG-IP 4000s
-slug: f5-big-ip-4000s
 part_number: 4000s
 u_height: 1
 is_full_depth: true

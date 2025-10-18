@@ -1,7 +1,6 @@
 ---
 manufacturer: Ubiquiti
 model: UniFi Pro Max 16
-slug: ubiquiti-unifi-pro-max-16
 part_number: USW-Pro-Max-16
 comments: |
   UniFi Pro Max 16 (Non-PoE), 4x 2.5GbE RJ45, 12 GbE RJ45, 2x 10G SFP+, RGB Port Illumination

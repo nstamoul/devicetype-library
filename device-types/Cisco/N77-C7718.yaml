@@ -1,7 +1,6 @@
 ---
 manufacturer: Cisco
 model: N77-C7718
-slug: cisco-n77-c7718
 part_number: N77-C7718
 description: Nexus 7700 Switches 18-Slot Chassis
 comments: '[Cisco Nexus 7700 Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-7000-series-switches/data_sheet_c78-728187.html)'

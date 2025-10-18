@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: Nimble HF40 Controller
-slug: hpe-nimble-hf40-controller
 part_number: Q8H68A
 subdevice_role: child
 is_full_depth: true

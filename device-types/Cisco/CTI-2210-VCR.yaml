@@ -2,7 +2,6 @@
 manufacturer: Cisco
 model: CTI-2210-VCR
 part_number: CTI-2210-VCR-K9
-slug: cisco-cti-2210-vcr
 is_full_depth: true
 airflow: side-to-rear
 comments: Tandberg by Codian by Cisco VCR

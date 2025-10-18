@@ -1,7 +1,6 @@
 ---
 manufacturer: Cisco
 model: Nexus 93108TC-FX3P
-slug: cisco-n9k-c93108tc-fx3p
 part_number: N9K-C93108TC-FX3P
 description: 48 x 100M/1/2.5/5/10 Gbps BASE-T ports and 6 x 40/100 Gbps QSFP28 ports
 front_image: true

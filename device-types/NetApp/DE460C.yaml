@@ -1,7 +1,6 @@
 ---
 manufacturer: NetApp
 model: DE460C
-slug: netapp-de460c
 part_number: DE460C
 description: 60SFF/LFF SAS/SATA 12G Expansion Shelf
 u_height: 4

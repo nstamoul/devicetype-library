@@ -2,7 +2,6 @@
 manufacturer: Arista
 model: DCS-7060DX5-32-F
 part_number: DCS-7060DX5-32-F
-slug: arista-dcs-7060dx5-32-f
 is_full_depth: true
 u_height: 1
 airflow: front-to-rear

@@ -1,7 +1,6 @@
 ---
 manufacturer: Ubiquiti
 model: Unifi G3 Pro
-slug: ubiquiti-unifi-uvc-g3-pro
 part_number: UVC-G3-Pro
 # Ubiquiti does not keep product links up, best I can do is the datasheet
 comments: |

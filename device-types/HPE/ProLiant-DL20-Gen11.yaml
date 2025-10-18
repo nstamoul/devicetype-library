@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: ProLiant DL20 Gen11
-slug: hpe-proliant-dl20-gen11
 u_height: 1.0
 is_full_depth: true
 comments: '[HP ProLiant DL20 Gen11 QuickSpecs](https://www.hpe.com/psnow/doc/a50007009enw)'

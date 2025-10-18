@@ -1,7 +1,6 @@
 ---
 manufacturer: Ubiquiti
 model: UniFi Switch Enterprise 24 PoE
-slug: ubiquiti-unifi-switch-enterprise-24-poe
 part_number: USW-Enterprise-24-PoE
 comments: |
   UniFi Switch Enterprise 24 PoE (150W + max. 400W PoE), (12) 2.5 Gigabit PoE+ IEEE 802.3af/at, (12) 1 Gigabit PoE+ IEEE 802.3af/at, (2) SFP+

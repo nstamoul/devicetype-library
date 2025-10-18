@@ -1,7 +1,6 @@
 ---
 manufacturer: Lantronix
 model: LM83X
-slug: lantronix-lm83x
 airflow: passive
 part_number: LM83X
 is_full_depth: false

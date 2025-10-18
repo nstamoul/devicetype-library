@@ -1,7 +1,6 @@
 ---
 manufacturer: Intel
 model: R2312WFTZS
-slug: intel-r2312wftzs
 airflow: front-to-rear
 weight: 23.35
 weight_unit: kg

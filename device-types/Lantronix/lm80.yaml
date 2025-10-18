@@ -1,7 +1,6 @@
 ---
 manufacturer: Lantronix
 model: LM80
-slug: lantronix-lm80
 airflow: passive
 part_number: LM80
 is_full_depth: false

@@ -1,7 +1,6 @@
 ---
 manufacturer: Generic
 model: rack-workstation-4u-1psu
-slug: generic-rack-workstation-4u-1psu
 u_height: 4
 is_full_depth: false
 airflow: front-to-rear

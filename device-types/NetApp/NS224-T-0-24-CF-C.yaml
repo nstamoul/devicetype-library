@@ -1,7 +1,6 @@
 ---
 manufacturer: NetApp
 model: NS224-T-0-24-CF-C
-slug: netapp-ns224-t-0-24-cf-c
 description: NVMe SHLF,2U24,Empty,NSM100B,CF
 part_number: NS224-T-0-24-CF-C
 u_height: 2.0

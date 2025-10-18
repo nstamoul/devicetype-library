@@ -1,7 +1,6 @@
 ---
 manufacturer: Fortinet
 model: FortiGate Rugged 60F
-slug: fortinet-fgr-60f
 part_number: FGR-60F
 u_height: 1
 is_full_depth: false

@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: Primera 4U Enclosure
-slug: hpe-primera-4u-enclosure
 u_height: 4
 comments: 32x12gSAS + 16x12gSAS/NVMe SFF Storage Enclosure
 weight: 67

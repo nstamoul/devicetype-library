@@ -1,7 +1,6 @@
 ---
 manufacturer: MikroTik
 model: CRS510-8XS-2XQ-IN
-slug: mikrotik-crs510-8xs-2xq-in
 part_number: CRS510-8XS-2XQ-IN
 is_full_depth: false
 airflow: front-to-rear

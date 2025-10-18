@@ -1,7 +1,6 @@
 ---
 manufacturer: HPE
 model: BladeSystem c7000
-slug: hpe-bladesystem-c7000
 part_number: 507019-B21
 u_height: 10
 is_full_depth: true
