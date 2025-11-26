@@ -1,0 +1,13 @@
+---
+manufacturer: Cisco
+model: BE7K-NIC-M6 Cisco-Intel X710T4LG 4x10 GbE RJ45
+part_number: BE7K-NIC-M6
+interfaces:
+  - name: NIC{module}/1
+    type: 10gbase-t
+  - name: NIC{module}/2
+    type: 10gbase-t
+  - name: NIC{module}/3
+    type: 10gbase-t
+  - name: NIC{module}/4
+    type: 10gbase-t
