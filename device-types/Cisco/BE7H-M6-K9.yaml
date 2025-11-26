@@ -1,0 +1,24 @@
+---
+manufacturer: Cisco
+model: BE7H-M6-K9
+part_number: BE7H-M6-K9
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: Con
+    type: rj-45
+interfaces:
+  - name: LOM1
+    type: 10gbase-t
+    mgmt_only: true
+  - name: LOM2
+    type: 10gbase-t
+    mgmt_only: true
+  - name: CIMC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-0
+    position: '0'
+  - name: PSU-1
+    position: '1'
