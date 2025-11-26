@@ -1,0 +1,18 @@
+manufacturer: Cisco
+model: VIC 15427
+slug: cisco-vic-15427-hci-m-v5q50gv2
+part_number: HCI-M-V5Q50GV2
+description: 4-Port 10/25/50G mLOM for HyperFlex C-Series w/Secure Boot
+interfaces:
+  - name: Ethernet 1
+    label: Q0
+    type: 25gbase-x-sfp28
+  - name: Ethernet 2
+    label: Q1
+    type: 25gbase-x-sfp28
+  - name: Ethernet 3
+    label: Q2
+    type: 25gbase-x-sfp28
+  - name: Ethernet 4
+    label: Q3
+    type: 25gbase-x-sfp28

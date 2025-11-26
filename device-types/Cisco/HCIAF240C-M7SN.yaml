@@ -1,0 +1,62 @@
+manufacturer: Cisco
+model: HyperFlex C240 M7 All Flash Node (Nutanix)
+part_number: HCIAF240C-M7SN
+u_height: 2
+comments: |
+  **Cisco HyperFlex with Nutanix C240 M7 All Flash Node**
+  This part number represents the fully configured hyperconverged node (Solution SKU) based on the
+  **UCS C240 M7 SFF Rack Server** (UCSC-C240-M7SN) with an all-flash drive configuration.
+is_full_depth: true
+front_image: true
+rear_image: true
+weight: 20
+weight_unit: kg
+airflow: front-to-rear
+
+# Console Ports
+console-ports:
+  - name: Console
+    label: Console
+    type: rj-45
+
+# Interfaces (Network Ports)
+interfaces:
+  - name: CIMC
+    type: 1000base-t
+    label: CIMC Management
+    mgmt_only: true
+  # Note: HCI nodes typically ship with a high-speed mLOM or PCIe adapter
+  # for data traffic, which would be specified in a fully detailed inventory.
+  # For the barebone representation, we only include the standard CIMC port.
+
+# Module Bays (Slots for removable components)
+module-bays:
+  # Power Supply Units (PSU)
+  - name: PSU 01
+    position: '1'
+  - name: PSU 02
+    position: '2'
+
+  # Standard Server Modules/Cards
+  - name: RAID Controller
+    position: RAID
+    
+  # Modular LAN On Motherboard (mLOM) - Primary Network Slot
+  - name: mLOM
+    position: mLOM
+    
+  # PCIe Expansion Slots (Slots and counts may vary slightly by exact riser configuration)
+  - name: PCIe slot 1
+    position: PCIe-1
+  - name: PCIe slot 2
+    position: PCIe-2
+  - name: PCIe slot 3
+    position: PCIe-3
+  - name: PCIe slot 4
+    position: PCIe-4
+  - name: PCIe slot 5
+    position: PCIe-5
+  - name: PCIe slot 6
+    position: PCIe-6
+  - name: PCIe slot 7
+    position: PCIe-7
