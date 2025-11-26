@@ -1,6 +1,5 @@
 manufacturer: Cisco
-model: VIC 15427
-slug: cisco-vic-15427-hci-m-v5q50gv2
+model: HCI-M-V5Q50GV2
 part_number: HCI-M-V5Q50GV2
 description: 4-Port 10/25/50G mLOM for HyperFlex C-Series w/Secure Boot
 interfaces:
