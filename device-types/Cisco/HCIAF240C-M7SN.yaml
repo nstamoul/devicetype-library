@@ -38,19 +38,19 @@ module-bays:
     position: '2'
   # Modular LAN On Motherboard (mLOM) - Primary Network Slot
   - name: mLOM
-    position: mLOM
+    position: '1'
   # # PCIe Expansion Slots (Slots and counts may vary slightly by exact riser configuration)
-  # - name: PCIe slot 1
-  #   position: PCIe-1
-  # - name: PCIe slot 2
-  #   position: PCIe-2
-  # - name: PCIe slot 3
-  #   position: PCIe-3
-  # - name: PCIe slot 4
-  #   position: PCIe-4
-  # - name: PCIe slot 5
-  #   position: PCIe-5
-  # - name: PCIe slot 6
-  #   position: PCIe-6
-  # - name: PCIe slot 7
-  #   position: PCIe-7
+  - name: PCIe slot 1
+    position: '1'
+  - name: PCIe slot 2
+    position: '2'
+  - name: PCIe slot 3
+    position: '3'
+  - name: PCIe slot 4
+    position: '4'
+  - name: PCIe slot 5
+    position: '5'
+  - name: PCIe slot 6
+    position: '6'
+  - name: PCIe slot 7
+    position: '7'
