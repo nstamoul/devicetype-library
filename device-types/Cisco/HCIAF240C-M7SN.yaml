@@ -32,10 +32,10 @@ interfaces:
 # Module Bays (Slots for removable components)
 module-bays:
   # Power Supply Units (PSU)
-  # - name: PSU 01
-  #   position: '1'
-  # - name: PSU 02
-  #   position: '2'
+  - name: PSU 01
+    position: '1'
+  - name: PSU 02
+    position: '2'
   # Modular LAN On Motherboard (mLOM) - Primary Network Slot
   - name: mLOM
     position: mLOM
