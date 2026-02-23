@@ -4,6 +4,7 @@ model: CRS309-1G-8S+IN
 part_number: CRS309-1G-8S+
 is_full_depth: false
 u_height: 1
+front_image: true
 interfaces:
   - name: sfp-sfpplus1
     label: SFP+ 1

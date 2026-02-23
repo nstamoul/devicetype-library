@@ -4,6 +4,8 @@ model: AP7921B
 part_number: AP7921B
 u_height: 1
 is_full_depth: false
+weight: 2.27
+weight_unit: kg
 comments: Rack PDU, Switched, 1U, 16A, 208/230V, (8)C13
 console-ports:
   - name: Serial

@@ -4,6 +4,8 @@ model: D5V6-512G-NVMe-Ctrl
 part_number: 02355GVC
 u_height: 0
 is_full_depth: false
+weight: 3
+weight_unit: kg
 subdevice_role: child
 module-bays:
   - name: IOM_0

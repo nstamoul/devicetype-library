@@ -152,12 +152,12 @@ console-ports:
   type: usb-mini-b
   description: Mini-USB console port (Type B)
 module-bays:
-- name: PSU1
-  position: '1'
-  description: Power supply bay 1 (e.g., C3KX-PWR-715WAC)
-- name: PSU2
-  position: '2'
-  description: Power supply bay 2 (e.g., C3KX-PWR-715WAC, optional)
-- name: Network Module
-  position: '3'
-  description: Optional network module slot (e.g., C3KX-NM-1G, C3KX-NM-10G, C3KX-NM-10GT)
+  - name: PSU1
+    position: '1'
+    description: Power supply bay 1 (e.g., C3KX-PWR-715WAC)
+  - name: PSU2
+    position: '2'
+    description: Power supply bay 2 (e.g., C3KX-PWR-715WAC, optional)
+  - name: Network Module
+    position: '1'
+    description: Optional network module slot (e.g., C3KX-NM-1G, C3KX-NM-10G, C3KX-NM-10GT)

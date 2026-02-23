@@ -116,10 +116,8 @@ interfaces:
 - name: TenGigabitEthernet1/0/2
   type: 10gbase-x-sfpp
 console-ports:
-- name: con0
-  type: rj-45
-power-ports:
-- name: PSU0
-  type: iec-60320-c14
-- name: PSU1
-  type: iec-60320-c14
+  - name: con0
+    type: rj-45
+module-bays:
+  - name: PSU1
+    position: '1'
