@@ -1,6 +1,7 @@
 ---
 manufacturer: APC
 model: AP4422A
+slug: apc-ap4422a
 part_number: AP4422A
 u_height: 1
 is_full_depth: false

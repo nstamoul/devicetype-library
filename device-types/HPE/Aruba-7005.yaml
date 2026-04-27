@@ -1,6 +1,7 @@
 ---
 manufacturer: HPE
 model: Aruba 7005
+slug: hpe-aruba-7005
 part_number: JW634A
 is_full_depth: false
 front_image: true

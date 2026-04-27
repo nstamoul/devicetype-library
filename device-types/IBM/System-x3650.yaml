@@ -1,6 +1,7 @@
 ---
 manufacturer: IBM
 model: System x3650
+slug: ibm-system-x3650
 u_height: 2
 is_full_depth: true
 weight: 25

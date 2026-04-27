@@ -1,6 +1,7 @@
 ---
 manufacturer: APC
 model: SMT1500RMI1U
+slug: apc-smt1500rmi1u
 part_number: SMT1500RMI1U
 u_height: 1
 is_full_depth: true

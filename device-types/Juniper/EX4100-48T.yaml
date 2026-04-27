@@ -1,6 +1,7 @@
 ---
 manufacturer: Juniper
 model: EX4100-48T
+slug: juniper-ex4100-48t
 part_number: EX4100-48T
 front_image: true
 rear_image: true

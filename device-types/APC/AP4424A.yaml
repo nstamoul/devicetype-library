@@ -1,6 +1,7 @@
 ---
 manufacturer: APC
 model: AP4424A
+slug: apc-ap4424a
 part_number: AP4424A
 u_height: 2
 is_full_depth: false

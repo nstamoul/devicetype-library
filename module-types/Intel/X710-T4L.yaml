@@ -16,14 +16,3 @@ interfaces:
   - name: Ethernet/{module}/4
     type: 10gbase-t
     mgmt_only: false
-module-bays:
-  - name: PSU-0
-    position: '0'
-  - name: PSU-1
-    position: '1'
-  - name: PCIe-1
-    position: '1'
-  - name: PCIe-2
-    position: '2'
-  - name: PCIe-3
-    position: '3'

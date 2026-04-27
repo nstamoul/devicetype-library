@@ -1,6 +1,7 @@
 ---
 manufacturer: Ubiquiti
 model: USG
+slug: ubiquiti-usg
 weight: 366
 weight_unit: g
 airflow: passive

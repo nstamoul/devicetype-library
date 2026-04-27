@@ -1,6 +1,7 @@
 ---
 manufacturer: WatchGuard
 model: Firebox T25
+slug: watchguard-firebox-t25
 u_height: 0
 subdevice_role: child
 is_full_depth: false

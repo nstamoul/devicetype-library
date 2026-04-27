@@ -1,6 +1,7 @@
 ---
 manufacturer: Datacom
 model: DM2104G2 EDD
+slug: datacom-dm2104g2-edd
 u_height: 1.0
 is_full_depth: true
 airflow: front-to-rear
@@ -24,13 +25,13 @@ interfaces:
   - name: eth4
     type: 1000base-x-sfp
   - name: eth5
-    type: 1000base-t
+    type: 1000base-tx
   - name: eth6
-    type: 1000base-t
+    type: 1000base-tx
   - name: eth7
-    type: 1000base-t
+    type: 1000base-tx
   - name: eth8
-    type: 1000base-t
+    type: 1000base-tx
   - name: MGMT
     type: 100base-tx
     mgmt_only: true

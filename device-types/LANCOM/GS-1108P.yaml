@@ -1,6 +1,7 @@
 ---
 manufacturer: LANCOM
 model: GS-1108P
+slug: lancom-gs-1108p
 part_number: '61430'
 comments: '[LANCOM GS-1108P Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-GS-1108P/DS_GS-1108P_DE.pdf)'
 weight: 1.0

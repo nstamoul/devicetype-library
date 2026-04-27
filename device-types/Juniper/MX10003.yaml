@@ -1,6 +1,7 @@
 ---
 manufacturer: Juniper
 model: MX10003
+slug: juniper-mx10003
 u_height: 3
 is_full_depth: true
 weight: 54.43

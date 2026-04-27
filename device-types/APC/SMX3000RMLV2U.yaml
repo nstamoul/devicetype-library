@@ -1,6 +1,7 @@
 ---
 manufacturer: APC
 model: SMX3000RMLV2U
+slug: apc-smx3000rmlv2u
 part_number: SMX3000RMLV2U
 u_height: 2
 is_full_depth: true

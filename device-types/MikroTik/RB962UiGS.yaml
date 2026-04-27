@@ -1,6 +1,7 @@
 ---
 manufacturer: MikroTik
 model: hAP ac
+slug: mikrotik-hap-ac
 part_number: RB962UiGS
 u_height: 0
 weight: 0.35
@@ -22,22 +23,22 @@ interfaces:
     type: 1000base-x-sfp
     label: SFP1
   - name: ether1
-    type: 1000base-t
+    type: 1000base-tx
     label: Ether1
     poe_mode: pd
     poe_type: passive-24v-2pair
     description: POE-IN
   - name: ether2
-    type: 1000base-t
+    type: 1000base-tx
     label: Ether2
   - name: ether3
-    type: 1000base-t
+    type: 1000base-tx
     label: Ether3
   - name: ether4
-    type: 1000base-t
+    type: 1000base-tx
     label: Ether4
   - name: ether5
-    type: 1000base-t
+    type: 1000base-tx
     label: Ether5
     poe_mode: pse
     poe_type: passive-24v-2pair

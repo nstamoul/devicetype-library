@@ -1,6 +1,7 @@
 ---
 manufacturer: TP-Link
 model: TL-SX3016F
+slug: tp-link-tl-sx3016f
 u_height: 1
 is_full_depth: false
 airflow: rear-to-side

@@ -1,5 +1,7 @@
+---
 manufacturer: Cisco
 model: Catalyst 3560X-24T-S
+slug: cisco-ws-c3560x-24t-s
 part_number: WS-C3560X-24T-S
 is_full_depth: false
 u_height: 1
@@ -56,12 +58,12 @@ interfaces:
   - name: GigabitEthernet0/24
     type: 1000base-t
 console-ports:
-- name: con0
-  type: rj-45
-- name: usb0
-  type: usb-mini-b
-- name: usb1
-  type: usb-a
+  - name: con0
+    type: rj-45
+  - name: usb0
+    type: usb-mini-b
+  - name: usb1
+    type: usb-a
 module-bays:
   - name: PSU1
     position: '1'

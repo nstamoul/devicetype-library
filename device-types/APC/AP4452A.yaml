@@ -1,6 +1,7 @@
 ---
 manufacturer: APC
 model: AP4452A
+slug: apc-ap4452a
 part_number: AP4452A
 u_height: 1
 is_full_depth: false

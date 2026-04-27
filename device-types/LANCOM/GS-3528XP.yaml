@@ -1,6 +1,7 @@
 ---
 manufacturer: LANCOM
 model: GS-3528XP
+slug: lancom-gs-3528xp
 part_number: '61850'
 comments: '[LANCOM GS-3528XP Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-GS-3528XP/DS_GS-3528XP_DE.pdf)'
 u_height: 1

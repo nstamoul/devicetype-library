@@ -1,6 +1,7 @@
 ---
 manufacturer: Ubiquiti
 model: UniFi Dream Machine Pro Max
+slug: ubiquiti-unifi-dream-machine-pro-max
 airflow: front-to-rear
 part_number: UDM-PRO-MAX
 comments: |

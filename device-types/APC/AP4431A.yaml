@@ -1,6 +1,7 @@
 ---
 manufacturer: APC
 model: AP4431A
+slug: apc-ap4431a
 part_number: AP4431A
 u_height: 2
 is_full_depth: false

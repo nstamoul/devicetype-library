@@ -1,6 +1,8 @@
+---
 manufacturer: Cisco
 model: Catalyst 9300X-48HXN
 part_number: C9300X-48HXN
+slug: cisco-c9300x-48hxn
 airflow: front-to-rear
 weight: 6.44
 weight_unit: kg
@@ -8,10 +10,10 @@ u_height: 1
 is_full_depth: true
 comments: '[Cisco Catalyst 9300 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html)'
 console-ports:
-- name: con 0
-  type: rj-45
-- name: usb
-  type: usb-mini-b
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
 interfaces:
   - name: FiveGigabitEthernet1/0/1
     type: 5gbase-t
@@ -213,15 +215,15 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
-- name: Network Module
-  position: '1'
-- name: PS-A
-  position: A
-- name: PS-B
-  position: B
-- name: FAN 1
-  position: '1'
-- name: FAN 2
-  position: '2'
-- name: FAN 3
-  position: '3'
+  - name: Network Module
+    position: '1'
+  - name: PS-A
+    position: A
+  - name: PS-B
+    position: B
+  - name: FAN 1
+    position: '1'
+  - name: FAN 2
+    position: '2'
+  - name: FAN 3
+    position: '3'

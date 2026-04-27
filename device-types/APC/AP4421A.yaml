@@ -1,6 +1,7 @@
 ---
 manufacturer: APC
 model: AP4421A
+slug: apc-ap4421a
 part_number: AP4421A
 u_height: 1
 is_full_depth: false

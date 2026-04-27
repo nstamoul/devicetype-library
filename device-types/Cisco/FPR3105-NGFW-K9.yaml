@@ -1,6 +1,7 @@
 ---
 manufacturer: Cisco
 model: FPR3105-NGFW-K9
+slug: cisco-fpr3105-ngfw-k9
 part_number: FPR3105-NGFW-K9
 u_height: 1
 is_full_depth: true

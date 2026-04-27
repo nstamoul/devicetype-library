@@ -1,6 +1,7 @@
 ---
 manufacturer: APC
 model: AP9568
+slug: apc-ap9568
 part_number: AP9568
 u_height: 0
 is_full_depth: false

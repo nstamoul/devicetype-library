@@ -1,6 +1,7 @@
 ---
 manufacturer: ExaGrid
 model: EX36
+slug: exagrid-ex36
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear

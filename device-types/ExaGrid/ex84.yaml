@@ -1,6 +1,7 @@
 ---
 manufacturer: ExaGrid
 model: EX84
+slug: exagrid-ex84
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear

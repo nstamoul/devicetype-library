@@ -1,6 +1,7 @@
 ---
 manufacturer: APC
 model: SMT1000RMI2UC
+slug: apc-smt1000rmi2uc
 part_number: SMT1000RMI2UC
 u_height: 2
 is_full_depth: true

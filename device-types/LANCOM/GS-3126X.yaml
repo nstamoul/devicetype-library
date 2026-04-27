@@ -1,6 +1,7 @@
 ---
 manufacturer: LANCOM
 model: GS-3126X
+slug: lancom-gs-3126x
 part_number: '61847'
 comments: '[LANCOM GS-3126X Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-GS-3126X/DS_GS-3126X_DE.pdf)'
 u_height: 1

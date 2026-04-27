@@ -1,6 +1,7 @@
 ---
 manufacturer: QNAP
 model: TS-431U
+slug: qnap-ts-431u
 part_number: TS-431U
 is_full_depth: false
 airflow: side-to-rear

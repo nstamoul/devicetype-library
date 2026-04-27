@@ -1,6 +1,7 @@
 ---
 manufacturer: Ubiquiti
 model: UNAS Pro
+slug: ubiquiti-unas-pro
 part_number: UNAS-Pro
 airflow: front-to-rear
 comments: |

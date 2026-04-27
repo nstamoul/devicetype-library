@@ -1,6 +1,7 @@
 ---
 manufacturer: Juniper
 model: SRX2300
+slug: juniper-srx2300
 part_number: SRX2300
 front_image: true
 rear_image: true

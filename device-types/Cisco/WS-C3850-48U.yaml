@@ -1,5 +1,7 @@
+---
 manufacturer: Cisco
 model: Catalyst 3850-48U
+slug: cisco-ws-c3850-48u
 part_number: WS-C3850-48U
 is_full_depth: false
 u_height: 1
@@ -200,12 +202,12 @@ interfaces:
     poe_mode: pse
     poe_type: type3-ieee802.3bt
 module-bays:
-- name: Network Module
-  position: '1'
-- name: PS-A
-  position: A
-- name: PS-B
-  position: B
+  - name: Network Module
+    position: '1'
+  - name: PS-A
+    position: A
+  - name: PS-B
+    position: B
 console-ports:
-- name: con0
-  type: rj-45
+  - name: con0
+    type: rj-45

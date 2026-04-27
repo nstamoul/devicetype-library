@@ -1,6 +1,7 @@
 ---
 manufacturer: ExaGrid
 model: EX18
+slug: exagrid-ex18
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear

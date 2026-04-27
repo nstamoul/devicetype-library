@@ -1,6 +1,7 @@
 ---
 manufacturer: Cisco
 model: Catalyst 9606R
+slug: cisco-c9606r
 part_number: C9606R
 u_height: 8
 weight: 25.36

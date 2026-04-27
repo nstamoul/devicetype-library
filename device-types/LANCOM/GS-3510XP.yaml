@@ -1,6 +1,7 @@
 ---
 manufacturer: LANCOM
 model: GS-3510XP
+slug: lancom-gs-3510xp
 part_number: '61849'
 comments: '[LANCOM GS-3510XP Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-GS-3510XP/DS_GS-3510XP_DE.pdf)'
 u_height: 1

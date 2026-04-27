@@ -1,6 +1,7 @@
 ---
 manufacturer: Cisco
 model: Nexus 93180YC-FX3H
+slug: cisco-nexus-93180yc-fx3h
 part_number: N9K-C93180YC-FX3H
 front_image: true
 rear_image: true

@@ -1,6 +1,7 @@
 ---
 manufacturer: APC
 model: AP4453A
+slug: apc-ap4453a
 part_number: AP4453A
 u_height: 2
 is_full_depth: false

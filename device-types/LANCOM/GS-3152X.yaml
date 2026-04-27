@@ -1,6 +1,7 @@
 ---
 manufacturer: LANCOM
 model: GS-3152X
+slug: lancom-gs-3152x
 part_number: '61488'
 comments: 'EoS:03/2023 EoL:03/2028 Successor: GS-3652XP [LANCOM GS-3152X Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-GS-3152X/DS_GS-3152X_DE.pdf)'
 u_height: 1

@@ -1,6 +1,7 @@
 ---
 manufacturer: Cisco
 model: IR829GW-LTE-GA
+slug: cisco-ir829gw-lte-ga
 part_number: IR829GW-LTE-GA-EK9
 u_height: 2
 is_full_depth: true
