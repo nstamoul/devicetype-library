@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "ONS-QDD-OLS"
+part_number: "ONS-QDD-OLS"
+description: "Cisco QSFP-DD - SMF ols"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | - |
+  | Normalized speeds | - |
+  | Default speed | - |
+  | Form factor | QSFP-DD |
+  | Reach | 150km |
+  | Cable type | Duplex Fiber |
+  | Media | SMF |
+  | Connector type | LC |
+  | Transceiver type | OLS |
+  | Case temperature | 0 to 75C |
+  | DOM capable | Yes |
+  | End of sale | No |

@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "DP04QSDD-HE0"
+part_number: "DP04QSDD-HE0"
+description: "Cisco QSFP-DD 400 Gbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 400 Gbps |
+  | Normalized speeds | 400G |
+  | Default speed | 400G |
+  | Form factor | QSFP-DD |
+  | Reach | 80km |
+  | Cable type | Duplex Fiber |
+  | Media | SMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 15 to 78C |
+  | DOM capable | Yes |
+  | End of sale | No |

@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "WSP-Q40GLR4L"
+part_number: "WSP-Q40GLR4L"
+description: "Cisco QSFP+ 40 Gbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 40 Gbps |
+  | Normalized speeds | 40G |
+  | Default speed | 40G |
+  | Form factor | QSFP+ |
+  | Reach | 2km |
+  | Cable type | Duplex Fiber |
+  | Media | SMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 10 to 60C |
+  | DOM capable | Yes |
+  | End of sale | No |

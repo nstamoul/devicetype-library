@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "ONS-SC+-10G-SR"
+part_number: "ONS-SC+-10G-SR"
+description: "Cisco SFP+ 10 Gbps MMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 10 Gbps |
+  | Normalized speeds | 10G |
+  | Default speed | 10G |
+  | Form factor | SFP+ |
+  | Reach | 100m |
+  | Cable type | Duplex Fiber |
+  | Media | MMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 0 to 70C |
+  | DOM capable | Yes |
+  | End of sale | No |

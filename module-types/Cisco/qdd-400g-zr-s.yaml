@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "QDD-400G-ZR-S"
+part_number: "QDD-400G-ZR-S"
+description: "Cisco QSFP-DD 400 Gbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 400 Gbps |
+  | Normalized speeds | 400G |
+  | Default speed | 400G |
+  | Form factor | QSFP-DD |
+  | Reach | 40km |
+  | Cable type | Duplex Fiber |
+  | Media | SMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 15 to 70C |
+  | DOM capable | Yes |
+  | End of sale | No |

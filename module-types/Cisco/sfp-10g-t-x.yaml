@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "SFP-10G-T-X"
+part_number: "SFP-10G-T-X"
+description: "Cisco SFP+ 100M/1000M/10G bps Copper copper"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 100M/1000M/10G bps |
+  | Normalized speeds | 100M, 1G, 10G |
+  | Default speed | 10G |
+  | Form factor | SFP+ |
+  | Reach | 30m |
+  | Cable type | Cat6A/7 |
+  | Media | Copper |
+  | Connector type | RJ-45 |
+  | Transceiver type | Copper |
+  | Case temperature | -5 to 85C |
+  | DOM capable | No |
+  | End of sale | No |

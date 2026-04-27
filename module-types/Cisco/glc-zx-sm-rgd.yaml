@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "GLC-ZX-SM-RGD"
+part_number: "GLC-ZX-SM-RGD"
+description: "Cisco SFP 1 Gbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 1 Gbps |
+  | Normalized speeds | 1G |
+  | Default speed | 1G |
+  | Form factor | SFP |
+  | Reach | 70km |
+  | Cable type | Duplex Fiber |
+  | Media | SMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | -40 to 85C |
+  | DOM capable | Yes |
+  | End of sale | No |

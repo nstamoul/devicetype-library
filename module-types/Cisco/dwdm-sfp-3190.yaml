@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "DWDM-SFP-3190"
+part_number: "DWDM-SFP-3190"
+description: "Cisco SFP 1 Gbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 1 Gbps |
+  | Normalized speeds | 1G |
+  | Default speed | 1G |
+  | Form factor | SFP |
+  | Reach | 80km |
+  | Cable type | Duplex Fiber |
+  | Media | SMF |
+  | Connector type | LC (PC or UPC) |
+  | Transceiver type | Optic |
+  | DOM capable | Yes |
+  | End of sale | No |
+  | Source rows | 2 variants collapsed by Product ID |

@@ -1,0 +1,23 @@
+---
+manufacturer: Cisco
+model: "QSFP-100G-AOC1M"
+part_number: "QSFP-100G-AOC1M"
+description: "Cisco QSFP28 100 Gbps AOC cable"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 100 Gbps |
+  | Normalized speeds | 100G |
+  | Default speed | 100G |
+  | Form factor | QSFP28 |
+  | Reach | 1m |
+  | Cable type | Preterminated cable |
+  | Media | AOC |
+  | Connector type | N/A |
+  | Transceiver type | Cable |
+  | Case temperature | 0 to 70C |
+  | DOM capable | No |
+  | End of sale | No |
+  | Source rows | 3 variants collapsed by Product ID |

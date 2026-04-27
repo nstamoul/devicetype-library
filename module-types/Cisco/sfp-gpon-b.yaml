@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "SFP-GPON-B"
+part_number: "SFP-GPON-B"
+description: "Cisco SFP 1.244/2.488 Gbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 1.244/2.488 Gbps |
+  | Normalized speeds | 1.244G, 2.488G |
+  | Default speed | 2.488G |
+  | Form factor | SFP |
+  | Reach | 20km |
+  | Cable type | Single-strand Fiber |
+  | Media | SMF |
+  | Connector type | LC (PC or UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 0 to 70C |
+  | DOM capable | Yes |
+  | End of sale | Yes |

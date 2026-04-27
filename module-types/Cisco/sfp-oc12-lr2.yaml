@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "SFP-OC12-LR2"
+part_number: "SFP-OC12-LR2"
+description: "Cisco SFP 622 Mbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 622 Mbps |
+  | Normalized speeds | 622M |
+  | Default speed | 622M |
+  | Form factor | SFP |
+  | Reach | 80km |
+  | Cable type | Duplex Fiber |
+  | Media | SMF |
+  | Connector type | LC (PC or UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | -5 to 85C |
+  | DOM capable | Yes |
+  | End of sale | No |

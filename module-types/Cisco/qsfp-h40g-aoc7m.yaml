@@ -1,0 +1,23 @@
+---
+manufacturer: Cisco
+model: "QSFP-H40G-AOC7M"
+part_number: "QSFP-H40G-AOC7M"
+description: "Cisco QSFP+ 40 Gbps AOC cable"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 40 Gbps |
+  | Normalized speeds | 40G |
+  | Default speed | 40G |
+  | Form factor | QSFP+ |
+  | Reach | 7m |
+  | Cable type | Preterminated cable |
+  | Media | AOC |
+  | Connector type | N/A |
+  | Transceiver type | Cable |
+  | Case temperature | 0 to 70C |
+  | DOM capable | No |
+  | End of sale | No |
+  | Source rows | 3 variants collapsed by Product ID |

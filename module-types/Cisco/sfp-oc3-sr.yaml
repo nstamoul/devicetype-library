@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "SFP-OC3-SR"
+part_number: "SFP-OC3-SR"
+description: "Cisco SFP 155 Mbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 155 Mbps |
+  | Normalized speeds | 155M |
+  | Default speed | 155M |
+  | Form factor | SFP |
+  | Reach | 2km |
+  | Cable type | Duplex Fiber |
+  | Media | SMF |
+  | Connector type | LC (PC or UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | -5 to 85C |
+  | DOM capable | Yes |
+  | End of sale | No |

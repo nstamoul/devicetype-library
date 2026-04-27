@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "OSFPR-800G-DR8"
+part_number: "OSFPR-800G-DR8"
+description: "Cisco OSFP-RHS 800 Gbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 800 Gbps |
+  | Normalized speeds | 800G |
+  | Default speed | 800G |
+  | Form factor | OSFP-RHS |
+  | Reach | 500m |
+  | Cable type | Parallel Fiber |
+  | Media | SMF |
+  | Connector type | Dual MPO-12 (APC) |
+  | Transceiver type | Optic |
+  | Case temperature | 0 to 70C |
+  | DOM capable | Yes |
+  | End of sale | No |

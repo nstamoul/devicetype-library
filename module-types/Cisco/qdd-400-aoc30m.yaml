@@ -1,0 +1,23 @@
+---
+manufacturer: Cisco
+model: "QDD-400-AOC30M"
+part_number: "QDD-400-AOC30M"
+description: "Cisco QSFP-DD 400 Gbps AOC cable"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 400 Gbps |
+  | Normalized speeds | 400G |
+  | Default speed | 400G |
+  | Form factor | QSFP-DD |
+  | Reach | 30m |
+  | Cable type | Preterminated cable |
+  | Media | AOC |
+  | Connector type | N/A |
+  | Transceiver type | Cable |
+  | Case temperature | 0 to 70C |
+  | DOM capable | No |
+  | End of sale | No |
+  | Source rows | 3 variants collapsed by Product ID |

@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "ONS-QC-16GFC-SW"
+part_number: "ONS-QC-16GFC-SW"
+description: "Cisco QSFP28 16 Gbps MMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 16 Gbps |
+  | Normalized speeds | 16G |
+  | Default speed | 16G |
+  | Form factor | QSFP28 |
+  | Reach | 100m |
+  | Cable type | Parallel Fiber |
+  | Media | MMF |
+  | Connector type | MPO-12 |
+  | Transceiver type | Optic |
+  | Case temperature | 0 to 70C |
+  | DOM capable | Yes |
+  | End of sale | No |

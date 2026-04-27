@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "QSFP-H40G-CU4M"
+part_number: "QSFP-H40G-CU4M"
+description: "Cisco QSFP+ 40 Gbps DAC cable"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 40 Gbps |
+  | Normalized speeds | 40G |
+  | Default speed | 40G |
+  | Form factor | QSFP+ |
+  | Reach | 4m |
+  | Cable type | Preterminated cable |
+  | Media | DAC |
+  | Connector type | N/A |
+  | Transceiver type | Cable |
+  | Case temperature | 0 to 70C |
+  | DOM capable | No |
+  | End of sale | No |

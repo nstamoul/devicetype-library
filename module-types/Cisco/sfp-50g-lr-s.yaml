@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "SFP-50G-LR-S"
+part_number: "SFP-50G-LR-S"
+description: "Cisco SFP56 25/50 Gbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 25/50 Gbps |
+  | Normalized speeds | 25G, 50G |
+  | Default speed | 50G |
+  | Form factor | SFP56 |
+  | Reach | 15km |
+  | Cable type | Duplex Fiber |
+  | Media | SMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 0 to 70C |
+  | DOM capable | Yes |
+  | End of sale | No |

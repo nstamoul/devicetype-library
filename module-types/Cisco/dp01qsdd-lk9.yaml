@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "DP01QSDD-LK9"
+part_number: "DP01QSDD-LK9"
+description: "Cisco QSFP-DD 100/200/300/400 Gbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 100/200/300/400 Gbps |
+  | Normalized speeds | 100G, 200G, 300G, 400G |
+  | Default speed | 400G |
+  | Form factor | QSFP-DD |
+  | Reach | 100km |
+  | Cable type | Duplex Fiber |
+  | Media | SMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 15 to 78C |
+  | DOM capable | Yes |
+  | End of sale | No |

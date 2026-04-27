@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "SFP-50G-BX40U-I"
+part_number: "SFP-50G-BX40U-I"
+description: "Cisco SFP56 25/50 Gbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 25/50 Gbps |
+  | Normalized speeds | 25G, 50G |
+  | Default speed | 50G |
+  | Form factor | SFP56 |
+  | Reach | 40km |
+  | Cable type | Simplex Fiber |
+  | Media | SMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | -40 to 85C |
+  | DOM capable | Yes |
+  | End of sale | No |

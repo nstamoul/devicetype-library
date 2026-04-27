@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "SFP-T1F-SATOP-I"
+part_number: "SFP-T1F-SATOP-I"
+description: "Cisco SFP 1.544 Mbps Copper optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 1.544 Mbps |
+  | Normalized speeds | 1.544M |
+  | Default speed | 1.544M |
+  | Form factor | SFP |
+  | Reach | 200m |
+  | Cable type | Cat5e/6A |
+  | Media | Copper |
+  | Connector type | RJ-45 |
+  | Transceiver type | Optic |
+  | Case temperature | -40 to 85C |
+  | DOM capable | No |
+  | End of sale | No |

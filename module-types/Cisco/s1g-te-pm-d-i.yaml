@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "S1G-TE-PM-D-I"
+part_number: "S1G-TE-PM-D-I"
+description: "Cisco SFP 1 Gbps Copper copper"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 1 Gbps |
+  | Normalized speeds | 1G |
+  | Default speed | 1G |
+  | Form factor | SFP |
+  | Reach | 100m |
+  | Cable type | Cat5e/6A |
+  | Media | Copper |
+  | Connector type | RJ-45 |
+  | Transceiver type | Copper |
+  | Case temperature | -40 to 85C |
+  | DOM capable | No |
+  | End of sale | No |

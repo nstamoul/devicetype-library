@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "QSFP-400G-VR4"
+part_number: "QSFP-400G-VR4"
+description: "Cisco QSFP112 400 Gbps MMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 400 Gbps |
+  | Normalized speeds | 400G |
+  | Default speed | 400G |
+  | Form factor | QSFP112 |
+  | Reach | 50m |
+  | Cable type | Parallel Fiber |
+  | Media | MMF |
+  | Connector type | MPO-12 (APC) |
+  | Transceiver type | Optic |
+  | Case temperature | 0 to 70C |
+  | DOM capable | Yes |
+  | End of sale | No |

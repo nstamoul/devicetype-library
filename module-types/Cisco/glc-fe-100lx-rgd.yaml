@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "GLC-FE-100LX-RGD"
+part_number: "GLC-FE-100LX-RGD"
+description: "Cisco SFP 100 Mbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 100 Mbps |
+  | Normalized speeds | 100M |
+  | Default speed | 100M |
+  | Form factor | SFP |
+  | Reach | 10km |
+  | Cable type | Duplex Fiber |
+  | Media | SMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | -40 to 85C |
+  | DOM capable | Yes |
+  | End of sale | No |
