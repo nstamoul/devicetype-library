@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "DS-SFP-FC8G-LW"
+part_number: "DS-SFP-FC8G-LW"
+description: "Cisco SFP+ 8 Gbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 8 Gbps |
+  | Normalized speeds | 8G |
+  | Default speed | 8G |
+  | Form factor | SFP+ |
+  | Reach | 10km |
+  | Cable type | Duplex Fiber |
+  | Media | SMF |
+  | Connector type | LC (PC or UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 0 to 70C |
+  | DOM capable | No |
+  | End of sale | No |

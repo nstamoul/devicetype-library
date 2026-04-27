@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "CWDM-SFP10G-XXXX"
+part_number: "CWDM-SFP10G-XXXX"
+description: "Cisco SFP+ 10 Gbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 10 Gbps |
+  | Normalized speeds | 10G |
+  | Default speed | 10G |
+  | Form factor | SFP+ |
+  | Reach | 40km |
+  | Cable type | Duplex Fiber |
+  | Media | SMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 0 to 70C |
+  | DOM capable | Yes |
+  | End of sale | Yes |

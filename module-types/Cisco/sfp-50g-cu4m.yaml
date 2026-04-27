@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "SFP-50G-CU4M"
+part_number: "SFP-50G-CU4M"
+description: "Cisco SFP56 25/50 Gbps DAC cable"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 25/50 Gbps |
+  | Normalized speeds | 25G, 50G |
+  | Default speed | 50G |
+  | Form factor | SFP56 |
+  | Reach | 4m |
+  | Cable type | Preterminated cable |
+  | Media | DAC |
+  | Connector type | N/A |
+  | Transceiver type | Cable |
+  | Case temperature | 0 to 70C |
+  | DOM capable | No |
+  | End of sale | No |

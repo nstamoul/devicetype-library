@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "QDD-400G-BD"
+part_number: "QDD-400G-BD"
+description: "Cisco QSFP-DD 100/400 Gbps MMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 100/400 Gbps |
+  | Normalized speeds | 100G, 400G |
+  | Default speed | 400G |
+  | Form factor | QSFP-DD |
+  | Reach | 100m |
+  | Cable type | Duplex Fiber |
+  | Media | MMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 0 to 70C |
+  | DOM capable | Yes |
+  | End of sale | No |

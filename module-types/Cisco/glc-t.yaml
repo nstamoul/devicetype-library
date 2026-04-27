@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "GLC-T"
+part_number: "GLC-T"
+description: "Cisco SFP 10/100/1000 Mbps Copper copper"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 10/100/1000 Mbps |
+  | Normalized speeds | 10M, 100M, 1G |
+  | Default speed | 1G |
+  | Form factor | SFP |
+  | Reach | 100m |
+  | Cable type | Cat5e/6A |
+  | Media | Copper |
+  | Connector type | RJ-45 |
+  | Transceiver type | Copper |
+  | Case temperature | 0 to 70C |
+  | DOM capable | No |
+  | End of sale | Yes |

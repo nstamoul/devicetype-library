@@ -1,0 +1,23 @@
+---
+manufacturer: Cisco
+model: "SFP-25G-AOC2M"
+part_number: "SFP-25G-AOC2M"
+description: "Cisco SFP28 25 Gbps AOC cable"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 25 Gbps |
+  | Normalized speeds | 25G |
+  | Default speed | 25G |
+  | Form factor | SFP28 |
+  | Reach | 2m |
+  | Cable type | Preterminated cable |
+  | Media | AOC |
+  | Connector type | N/A |
+  | Transceiver type | Cable |
+  | Case temperature | 0 to 70C |
+  | DOM capable | No |
+  | End of sale | No |
+  | Source rows | 3 variants collapsed by Product ID |

@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "SFP-10/25G-BXU-I"
+part_number: "SFP-10/25G-BXU-I"
+description: "Cisco SFP28 10/25 Gbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 10/25 Gbps |
+  | Normalized speeds | 10G, 25G |
+  | Default speed | 25G |
+  | Form factor | SFP28 |
+  | Reach | 15km |
+  | Cable type | Single-strand Fiber |
+  | Media | SMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | -40 to 85C |
+  | DOM capable | Yes |
+  | End of sale | No |

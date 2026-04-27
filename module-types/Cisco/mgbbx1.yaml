@@ -1,0 +1,21 @@
+---
+manufacturer: Cisco
+model: "MGBBX1"
+part_number: "MGBBX1"
+description: "Cisco SFP 1 Gbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 1 Gbps |
+  | Normalized speeds | 1G |
+  | Default speed | 1G |
+  | Form factor | SFP |
+  | Reach | 10km |
+  | Cable type | Duplex Fiber |
+  | Media | SMF |
+  | Connector type | LC (PC or UPC) |
+  | Transceiver type | Optic |
+  | DOM capable | Yes |
+  | End of sale | Yes |

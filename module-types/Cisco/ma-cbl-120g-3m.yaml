@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "MA-CBL-120G-3M"
+part_number: "MA-CBL-120G-3M"
+description: "Cisco QSFP28 120 Gbps DAC cable"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 120 Gbps |
+  | Normalized speeds | 120G |
+  | Default speed | 120G |
+  | Form factor | QSFP28 |
+  | Reach | 3m |
+  | Cable type | Preterminated cable |
+  | Media | DAC |
+  | Connector type | N/A |
+  | Transceiver type | Cable |
+  | Case temperature | 0 to 70C |
+  | DOM capable | No |
+  | End of sale | No |

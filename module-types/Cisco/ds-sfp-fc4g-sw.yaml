@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "DS-SFP-FC4G-SW"
+part_number: "DS-SFP-FC4G-SW"
+description: "Cisco SFP+ 4 Gbps MMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 4 Gbps |
+  | Normalized speeds | 4G |
+  | Default speed | 4G |
+  | Form factor | SFP+ |
+  | Reach | 380m |
+  | Cable type | Duplex Fiber |
+  | Media | MMF |
+  | Connector type | LC (PC or UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 0 to 70C |
+  | DOM capable | No |
+  | End of sale | No |

@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "QSFP-40G-SR4-S"
+part_number: "QSFP-40G-SR4-S"
+description: "Cisco QSFP+ 40 Gbps MMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 40 Gbps |
+  | Normalized speeds | 40G |
+  | Default speed | 40G |
+  | Form factor | QSFP+ |
+  | Reach | 150m |
+  | Cable type | Parallel Fiber |
+  | Media | MMF |
+  | Connector type | MPO-12 (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 0 to 70C |
+  | DOM capable | Yes |
+  | End of sale | No |

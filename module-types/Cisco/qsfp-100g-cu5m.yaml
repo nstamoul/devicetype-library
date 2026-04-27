@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "QSFP-100G-CU5M"
+part_number: "QSFP-100G-CU5M"
+description: "Cisco QSFP28 100 Gbps DAC cable"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 100 Gbps |
+  | Normalized speeds | 100G |
+  | Default speed | 100G |
+  | Form factor | QSFP28 |
+  | Reach | 5m |
+  | Cable type | Preterminated cable |
+  | Media | DAC |
+  | Connector type | N/A |
+  | Transceiver type | Cable |
+  | Case temperature | 0 to 70C |
+  | DOM capable | No |
+  | End of sale | No |

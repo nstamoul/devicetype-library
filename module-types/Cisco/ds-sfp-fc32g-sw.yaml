@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "DS-SFP-FC32G-SW"
+part_number: "DS-SFP-FC32G-SW"
+description: "Cisco SFP+ 28.05/14.025/8.5 Gbps MMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 28.05/14.025/8.5 Gbps |
+  | Normalized speeds | 28.05G, 14.025G, 8.5G |
+  | Default speed | 8.5G |
+  | Form factor | SFP+ |
+  | Reach | 100m |
+  | Cable type | Duplex Fiber |
+  | Media | MMF |
+  | Connector type | LC (PC or UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 0 to 70C |
+  | DOM capable | Yes |
+  | End of sale | No |

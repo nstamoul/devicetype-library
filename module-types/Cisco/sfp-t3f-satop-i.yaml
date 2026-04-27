@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "SFP-T3F-SATOP-I"
+part_number: "SFP-T3F-SATOP-I"
+description: "Cisco SFP 44.736 Mbps Copper optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 44.736 Mbps |
+  | Normalized speeds | 44.736M |
+  | Default speed | 44.736M |
+  | Form factor | SFP |
+  | Reach | 137m |
+  | Cable type | Mini Coaxial |
+  | Media | Copper |
+  | Connector type | Mini Coax |
+  | Transceiver type | Optic |
+  | Case temperature | -40 to 85C |
+  | DOM capable | No |
+  | End of sale | No |

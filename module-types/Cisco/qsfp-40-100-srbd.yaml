@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "QSFP-40/100-SRBD"
+part_number: "QSFP-40/100-SRBD"
+description: "Cisco QSFP28 40/100 Gbps MMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 40/100 Gbps |
+  | Normalized speeds | 40G, 100G |
+  | Default speed | 100G |
+  | Form factor | QSFP28 |
+  | Reach | 150m |
+  | Cable type | Duplex Fiber |
+  | Media | MMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 40G: +10 to +70C / 100G: +10 to +60C |
+  | DOM capable | Yes |
+  | End of sale | No |

@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "RPHY-S10G-40K-XXX"
+part_number: "RPHY-S10G-40K-XXX"
+description: "Cisco 10 Gbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 10 Gbps |
+  | Normalized speeds | 10G |
+  | Default speed | 10G |
+  | Form factor | N/A |
+  | Reach | 40km |
+  | Cable type | Duplex Fiber |
+  | Media | SMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | N/A |
+  | DOM capable | Yes |
+  | End of sale | No |

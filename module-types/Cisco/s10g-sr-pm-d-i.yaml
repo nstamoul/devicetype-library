@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "S10G-SR-PM-D-I"
+part_number: "S10G-SR-PM-D-I"
+description: "Cisco SFP+ 10 Gbps MMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 10 Gbps |
+  | Normalized speeds | 10G |
+  | Default speed | 10G |
+  | Form factor | SFP+ |
+  | Reach | 150m |
+  | Cable type | Duplex Fiber |
+  | Media | MMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | -5 to 85C |
+  | DOM capable | Yes |
+  | End of sale | No |

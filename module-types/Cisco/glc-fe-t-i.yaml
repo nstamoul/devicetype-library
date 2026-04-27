@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "GLC-FE-T-I"
+part_number: "GLC-FE-T-I"
+description: "Cisco SFP 100 Mbps Copper copper"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 100 Mbps |
+  | Normalized speeds | 100M |
+  | Default speed | 100M |
+  | Form factor | SFP |
+  | Reach | 100m |
+  | Cable type | Cat5e/6A |
+  | Media | Copper |
+  | Connector type | RJ-45 |
+  | Transceiver type | Copper |
+  | Case temperature | -40 to 85C |
+  | DOM capable | No |
+  | End of sale | No |

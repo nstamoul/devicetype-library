@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "QSFP-100G-ER4L-S"
+part_number: "QSFP-100G-ER4L-S"
+description: "Cisco QSFP28 100 Gbps SMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 100 Gbps |
+  | Normalized speeds | 100G |
+  | Default speed | 100G |
+  | Form factor | QSFP28 |
+  | Reach | 40km |
+  | Cable type | Duplex Fiber |
+  | Media | SMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 0 to 70C |
+  | DOM capable | Yes |
+  | End of sale | No |

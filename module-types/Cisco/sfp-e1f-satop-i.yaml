@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "SFP-E1F-SATOP-I"
+part_number: "SFP-E1F-SATOP-I"
+description: "Cisco SFP 2.048 Mbps Copper optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 2.048 Mbps |
+  | Normalized speeds | 2.048M |
+  | Default speed | 2.048M |
+  | Form factor | SFP |
+  | Reach | 100m |
+  | Cable type | Cat5e/6A |
+  | Media | Copper |
+  | Connector type | RJ-45 |
+  | Transceiver type | Optic |
+  | Case temperature | -40 to 85C |
+  | DOM capable | No |
+  | End of sale | No |

@@ -1,0 +1,12 @@
+---
+manufacturer: Cisco
+model: "QSFP-4SFP25G-CU4M"
+part_number: "QSFP-4SFP25G-CU4M"
+description: "Cisco"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | DOM capable | No |
+  | End of sale | No |

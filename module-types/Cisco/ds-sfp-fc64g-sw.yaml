@@ -1,0 +1,22 @@
+---
+manufacturer: Cisco
+model: "DS-SFP-FC64G-SW"
+part_number: "DS-SFP-FC64G-SW"
+description: "Cisco SFP+ 57.8/28.05/14.025 Gbps MMF optic"
+comments: |-
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+  
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 57.8/28.05/14.025 Gbps |
+  | Normalized speeds | 57.8G, 28.05G, 14.025G |
+  | Default speed | 14.025G |
+  | Form factor | SFP+ |
+  | Reach | 100m |
+  | Cable type | Duplex Fiber |
+  | Media | MMF |
+  | Connector type | LC (PC or UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 0 to 70C |
+  | DOM capable | Yes |
+  | End of sale | No |
