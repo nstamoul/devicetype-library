@@ -2,7 +2,11 @@
 manufacturer: MikroTik
 model: C52iG-5HaxD2HaxD-TC
 u_height: 1
+comments: '[MikroTik hAP ax2 Datasheet](https://mikrotik.com/product/hap_ax2)'
 is_full_depth: false
+airflow: passive
+weight: 270
+weight_unit: g
 power-ports:
   - name: DC-in
     type: dc-terminal

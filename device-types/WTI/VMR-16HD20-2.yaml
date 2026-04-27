@@ -4,6 +4,8 @@ model: VMR-16HD20-2
 airflow: passive
 part_number: VMR-16HD20-2
 is_full_depth: false
+front_image: true
+rear_image: true
 u_height: 2
 # comments: WTI VMR 2U, 1 ethernet, 16 outlet 20A 120V
 interfaces:
