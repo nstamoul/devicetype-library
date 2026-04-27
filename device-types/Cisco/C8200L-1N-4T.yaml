@@ -8,8 +8,6 @@ is_full_depth: false
 airflow: front-to-rear
 weight: 4.54
 weight_unit: kg
-front_image: true
-rear_image: true
 comments: '[Cisco Catalyst 8200 Series Edge Platforms Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/catalyst-8200-series-edge-platforms/nb-06-cat8200-series-edge-plat-ds-cte-en.html)'
 console-ports:
   - name: con0

@@ -18,7 +18,7 @@ console-ports:
 power-ports:
   - name: DC-IN
     type: dc-terminal
-    description: 9.6–60 VDC terminal
+    description: 9.6-60 VDC terminal
 
 interfaces:
   - name: GigabitEthernet0/0/0
