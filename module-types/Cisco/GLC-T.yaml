@@ -1,7 +1,8 @@
 ---
 manufacturer: Cisco
 model: GLC-T
-part_number: 30-1410-03
+part_number: GLC-T
+description: Cisco SFP 10/100/1000 Mbps Copper copper
 weight: 75.0
 weight_unit: g
 profile: Transceiver
@@ -12,7 +13,25 @@ attribute_data:
   data_rate: 1G
   form_factor: SFP
   connector_type: RJ-45
-comments: '[Cisco SFP Modules for Gigabit Ethernet Applications Data Sheet](https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/gigabit-ethernet-gbic-sfp-modules/datasheet-c78-366584.html)'
+comments: |-
+  [Cisco SFP Modules for Gigabit Ethernet Applications Data Sheet](https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/gigabit-ethernet-gbic-sfp-modules/datasheet-c78-366584.html)
+
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 10/100/1000 Mbps |
+  | Normalized speeds | 10M, 100M, 1G |
+  | Default speed | 1G |
+  | Form factor | SFP |
+  | Reach | 100m |
+  | Cable type | Cat5e/6A |
+  | Media | Copper |
+  | Connector type | RJ-45 |
+  | Transceiver type | Copper |
+  | Case temperature | 0 to 70C |
+  | DOM capable | No |
+  | End of sale | Yes |
 interfaces:
   - name: '{module}'
     type: 1000base-t
