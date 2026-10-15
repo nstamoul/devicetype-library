@@ -35,8 +35,9 @@ case-colliding pair is checked out, so the contract can miss what `git ls-files`
 
 ## Setup
 
-- **Enable Actions on the fork:** GitHub does not run workflows on a fork until someone opens
-  the repository's **Actions** tab and clicks **I understand my workflows, go ahead and enable them**.
+- **Actions** runs on this fork (verified 2026-10-15). If a fork's Actions tab ever shows
+  *Workflows aren't being run on this forked repository*, click **I understand my workflows, go
+  ahead and enable them**.
 - **`NAUTOBOT_JOBS_REPO_TOKEN`** (repository secret): fine-grained PAT limited to
   `nstamoul/nautobot_jobs_repo` with **Contents: read**. Without it the contract is skipped.
 - **`UPSTREAM_SYNC_TOKEN`** (optional repository secret): fine-grained PAT limited to
