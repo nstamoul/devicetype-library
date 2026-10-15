@@ -5,7 +5,7 @@ part_number: "DS-SFP-FC16G-SW"
 description: "Cisco SFP+ 14.025/8.5/4.25 Gbps MMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 14.025/8.5/4.25 Gbps |

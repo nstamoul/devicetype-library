@@ -5,7 +5,7 @@ part_number: "QDD-400-AOC25M"
 description: "Cisco QSFP-DD 400 Gbps AOC cable"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 400 Gbps |

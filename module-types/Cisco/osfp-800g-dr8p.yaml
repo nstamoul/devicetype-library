@@ -5,7 +5,7 @@ part_number: "OSFP-800G-DR8P"
 description: "Cisco OSFP 800 Gbps SMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 800 Gbps |

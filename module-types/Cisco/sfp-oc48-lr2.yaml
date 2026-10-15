@@ -5,7 +5,7 @@ part_number: "SFP-OC48-LR2"
 description: "Cisco SFP 2.488 Gbps SMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 2.488 Gbps |

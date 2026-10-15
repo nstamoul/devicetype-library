@@ -5,7 +5,7 @@ part_number: "DP01QS28-E25"
 description: "Cisco QSFP28 100 Gbps SMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 100 Gbps |

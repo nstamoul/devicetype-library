@@ -5,7 +5,7 @@ part_number: "SFP-OC12-SR"
 description: "Cisco SFP 622 Mbps SMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 622 Mbps |

@@ -5,7 +5,7 @@ part_number: "QSFP-100G-AOC2M"
 description: "Cisco QSFP28 100 Gbps AOC cable"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 100 Gbps |

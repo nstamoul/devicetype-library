@@ -5,7 +5,7 @@ part_number: "SFP-10/25G-LR-I"
 description: "Cisco SFP28 10/25 Gbps SMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 10/25 Gbps |

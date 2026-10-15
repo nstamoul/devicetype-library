@@ -5,7 +5,7 @@ part_number: "S1G-SX-PM-D-I"
 description: "Cisco SFP 1 Gbps MMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 1 Gbps |

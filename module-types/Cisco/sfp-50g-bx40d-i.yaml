@@ -5,7 +5,7 @@ part_number: "SFP-50G-BX40D-I"
 description: "Cisco SFP56 25/50 Gbps SMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 25/50 Gbps |
