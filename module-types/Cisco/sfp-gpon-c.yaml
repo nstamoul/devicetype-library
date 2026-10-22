@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-GPON-C"
-part_number: "SFP-GPON-C"
-description: "Cisco SFP 1.244/2.488 Gbps SMF optic"
+model: SFP-GPON-C
+part_number: SFP-GPON-C
+description: Cisco SFP 1.244/2.488 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

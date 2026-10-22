@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-10G-AOC10M"
-part_number: "SFP-10G-AOC10M"
-description: "Cisco SFP+ 10 Gbps AOC cable"
+model: SFP-10G-AOC10M
+part_number: SFP-10G-AOC10M
+description: Cisco SFP+ 10 Gbps AOC cable
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

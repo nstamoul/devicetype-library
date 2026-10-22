@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-GE-S"
-part_number: "SFP-GE-S"
-description: "Cisco SFP 1 Gbps MMF optic"
+model: SFP-GE-S
+part_number: SFP-GE-S
+description: Cisco SFP 1 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

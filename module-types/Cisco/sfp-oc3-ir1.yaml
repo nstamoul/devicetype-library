@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-OC3-IR1"
-part_number: "SFP-OC3-IR1"
-description: "Cisco SFP 155 Mbps SMF optic"
+model: SFP-OC3-IR1
+part_number: SFP-OC3-IR1
+description: Cisco SFP 155 Mbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

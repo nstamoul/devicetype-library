@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "DS-SFP-FC64G-SW"
-part_number: "DS-SFP-FC64G-SW"
-description: "Cisco SFP+ 57.8/28.05/14.025 Gbps MMF optic"
+model: DS-SFP-FC64G-SW
+part_number: DS-SFP-FC64G-SW
+description: Cisco SFP+ 57.8/28.05/14.025 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

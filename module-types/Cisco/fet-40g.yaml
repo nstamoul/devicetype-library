@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "FET-40G"
-part_number: "FET-40G"
-description: "Cisco QSFP+ 40 Gbps MMF optic"
+model: FET-40G
+part_number: FET-40G
+description: Cisco QSFP+ 40 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "S1G-SX-PM-D-I"
-part_number: "S1G-SX-PM-D-I"
-description: "Cisco SFP 1 Gbps MMF optic"
+model: S1G-SX-PM-D-I
+part_number: S1G-SX-PM-D-I
+description: Cisco SFP 1 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

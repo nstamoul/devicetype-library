@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-1G-LH"
-part_number: "SFP-1G-LH"
-description: "Cisco SFP 1 Gbps SMF optic"
+model: SFP-1G-LH
+part_number: SFP-1G-LH
+description: Cisco SFP 1 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

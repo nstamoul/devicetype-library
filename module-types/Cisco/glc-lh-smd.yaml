@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "GLC-LH-SMD"
-part_number: "GLC-LH-SMD"
-description: "Cisco SFP 1 Gbps SMF optic"
+model: GLC-LH-SMD
+part_number: GLC-LH-SMD
+description: Cisco SFP 1 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

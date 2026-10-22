@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "OSFP-800G-DR8"
-part_number: "OSFP-800G-DR8"
-description: "Cisco OSFP 800 Gbps SMF optic"
+model: OSFP-800G-DR8
+part_number: OSFP-800G-DR8
+description: Cisco OSFP 800 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

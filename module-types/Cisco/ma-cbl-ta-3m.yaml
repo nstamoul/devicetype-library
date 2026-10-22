@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "MA-CBL-TA-3M"
-part_number: "MA-CBL-TA-3M"
-description: "Cisco SFP+ 10 Gbps DAC cable"
+model: MA-CBL-TA-3M
+part_number: MA-CBL-TA-3M
+description: Cisco SFP+ 10 Gbps DAC cable
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

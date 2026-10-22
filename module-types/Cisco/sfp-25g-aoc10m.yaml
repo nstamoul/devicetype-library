@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-25G-AOC10M"
-part_number: "SFP-25G-AOC10M"
-description: "Cisco SFP28 25 Gbps AOC cable"
+model: SFP-25G-AOC10M
+part_number: SFP-25G-AOC10M
+description: Cisco SFP28 25 Gbps AOC cable
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

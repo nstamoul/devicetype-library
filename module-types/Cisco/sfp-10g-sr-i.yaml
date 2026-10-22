@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-10G-SR-I"
-part_number: "SFP-10G-SR-I"
-description: "Cisco SFP+ 10 Gbps MMF optic"
+model: SFP-10G-SR-I
+part_number: SFP-10G-SR-I
+description: Cisco SFP+ 10 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

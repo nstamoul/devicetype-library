@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-25G-ER-I"
-part_number: "SFP-25G-ER-I"
-description: "Cisco SFP28 25 Gbps SMF optic"
+model: SFP-25G-ER-I
+part_number: SFP-25G-ER-I
+description: Cisco SFP28 25 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

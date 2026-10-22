@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "QSFP-200G-SL4"
-part_number: "QSFP-200G-SL4"
-description: "Cisco QSFP56 200 Gbps MMF optic"
+model: QSFP-200G-SL4
+part_number: QSFP-200G-SL4
+description: Cisco QSFP56 200 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

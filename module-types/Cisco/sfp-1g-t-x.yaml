@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-1G-T-X"
-part_number: "SFP-1G-T-X"
-description: "Cisco SFP+ 10/100/1000 Mbps Copper copper"
+model: SFP-1G-T-X
+part_number: SFP-1G-T-X
+description: Cisco SFP+ 10/100/1000 Mbps Copper copper
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

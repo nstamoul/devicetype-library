@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "QSFP-100G-LR4-S"
-part_number: "QSFP-100G-LR4-S"
-description: "Cisco QSFP28 100 Gbps SMF optic"
+model: QSFP-100G-LR4-S
+part_number: QSFP-100G-LR4-S
+description: Cisco QSFP28 100 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

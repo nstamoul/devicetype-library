@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "DP01QSDD-ZF1"
-part_number: "DP01QSDD-ZF1"
-description: "Cisco QSFP-DD 100 Gbps SMF optic"
+model: DP01QSDD-ZF1
+part_number: DP01QSDD-ZF1
+description: Cisco QSFP-DD 100 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

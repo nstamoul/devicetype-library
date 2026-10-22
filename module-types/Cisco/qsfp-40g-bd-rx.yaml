@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "QSFP-40G-BD-RX"
-part_number: "QSFP-40G-BD-RX"
-description: "Cisco QSFP+ 40 Gbps MMF optic"
+model: QSFP-40G-BD-RX
+part_number: QSFP-40G-BD-RX
+description: Cisco QSFP+ 40 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

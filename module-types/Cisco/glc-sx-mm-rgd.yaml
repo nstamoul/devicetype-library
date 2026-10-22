@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "GLC-SX-MM-RGD"
-part_number: "GLC-SX-MM-RGD"
-description: "Cisco SFP 1 Gbps MMF optic"
+model: GLC-SX-MM-RGD
+part_number: GLC-SX-MM-RGD
+description: Cisco SFP 1 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

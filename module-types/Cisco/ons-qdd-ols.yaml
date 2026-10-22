@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "ONS-QDD-OLS"
-part_number: "ONS-QDD-OLS"
-description: "Cisco QSFP-DD - SMF ols"
+model: ONS-QDD-OLS
+part_number: ONS-QDD-OLS
+description: Cisco QSFP-DD - SMF ols
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

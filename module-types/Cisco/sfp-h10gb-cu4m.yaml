@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-H10GB-CU4M"
-part_number: "SFP-H10GB-CU4M"
-description: "Cisco SFP+ 10 Gbps DAC cable"
+model: SFP-H10GB-CU4M
+part_number: SFP-H10GB-CU4M
+description: Cisco SFP+ 10 Gbps DAC cable
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "DWDM-SFP10G-31.12"
-part_number: "DWDM-SFP10G-31.12"
-description: "Cisco SFP+ 10 Gbps SMF optic"
+model: DWDM-SFP10G-31.12
+part_number: DWDM-SFP10G-31.12
+description: Cisco SFP+ 10 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

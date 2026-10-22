@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "QSFP-400G-VR4"
-part_number: "QSFP-400G-VR4"
-description: "Cisco QSFP112 400 Gbps MMF optic"
+model: QSFP-400G-VR4
+part_number: QSFP-400G-VR4
+description: Cisco QSFP112 400 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

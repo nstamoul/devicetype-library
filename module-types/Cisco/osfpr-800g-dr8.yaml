@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "OSFPR-800G-DR8"
-part_number: "OSFPR-800G-DR8"
-description: "Cisco OSFP-RHS 800 Gbps SMF optic"
+model: OSFPR-800G-DR8
+part_number: OSFPR-800G-DR8
+description: Cisco OSFP-RHS 800 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

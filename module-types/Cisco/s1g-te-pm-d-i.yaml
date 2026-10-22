@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "S1G-TE-PM-D-I"
-part_number: "S1G-TE-PM-D-I"
-description: "Cisco SFP 1 Gbps Copper copper"
+model: S1G-TE-PM-D-I
+part_number: S1G-TE-PM-D-I
+description: Cisco SFP 1 Gbps Copper copper
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

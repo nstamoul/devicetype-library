@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "DS-SFP-FC8G-LW"
-part_number: "DS-SFP-FC8G-LW"
-description: "Cisco SFP+ 8 Gbps SMF optic"
+model: DS-SFP-FC8G-LW
+part_number: DS-SFP-FC8G-LW
+description: Cisco SFP+ 8 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

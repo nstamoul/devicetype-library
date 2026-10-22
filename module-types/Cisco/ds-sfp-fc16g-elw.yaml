@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "DS-SFP-FC16G-ELW"
-part_number: "DS-SFP-FC16G-ELW"
-description: "Cisco SFP+ 14.025/8.5/4.25 Gbps SMF optic"
+model: DS-SFP-FC16G-ELW
+part_number: DS-SFP-FC16G-ELW
+description: Cisco SFP+ 14.025/8.5/4.25 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

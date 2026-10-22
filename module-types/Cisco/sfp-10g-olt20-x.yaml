@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-10G-OLT20-X"
-part_number: "SFP-10G-OLT20-X"
-description: "Cisco SFP+ 10 Gbps SMF optic"
+model: SFP-10G-OLT20-X
+part_number: SFP-10G-OLT20-X
+description: Cisco SFP+ 10 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

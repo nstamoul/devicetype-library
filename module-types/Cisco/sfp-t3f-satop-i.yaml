@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-T3F-SATOP-I"
-part_number: "SFP-T3F-SATOP-I"
-description: "Cisco SFP 44.736 Mbps Copper optic"
+model: SFP-T3F-SATOP-I
+part_number: SFP-T3F-SATOP-I
+description: Cisco SFP 44.736 Mbps Copper optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 
