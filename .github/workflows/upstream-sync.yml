@@ -1,0 +1,165 @@
+---
+# Fork-only workflow: weekly merge of netbox-community/devicetype-library master into a
+# sync/upstream-<date> branch, checked and opened as a PR for human review. Never pushes master.
+#
+# Secrets (Settings > Secrets and variables > Actions), both SSH deploy-key private keys:
+#   NAUTOBOT_JOBS_REPO_DEPLOY_KEY  read-only deploy key on nstamoul/nautobot_jobs_repo. Without
+#                                  it the Nautobot contract is skipped.
+#   UPSTREAM_SYNC_DEPLOY_KEY       write deploy key on this repository, used only to push the
+#                                  sync branch. GITHUB_TOKEN cannot push commits that touch
+#                                  .github/workflows/ (upstream does about monthly); a deploy
+#                                  key can. PRs and statuses use GITHUB_TOKEN, so the PR does not
+#                                  trigger validation.yml; this workflow runs the same checks.
+name: Upstream sync
+on: # yamllint disable-line rule:truthy
+  schedule:
+    - cron: '23 5 * * 1' # Mondays 05:23 UTC
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Merge and run the checks, but push nothing and open no PR
+        type: boolean
+        default: false
+      allow_parallel:
+        description: Open a PR even if an earlier sync/upstream-* PR is still open
+        type: boolean
+        default: false
+      jobs_repo_ref:
+        description: nautobot_jobs_repo branch or tag that provides the import contract test
+        type: string
+        default: main
+  pull_request:
+    branches:
+      - master
+    paths:
+      - .github/workflows/upstream-sync.yml
+      - .github/scripts/upstream_sync*
+permissions:
+  contents: write
+  pull-requests: write
+  statuses: write
+concurrency:
+  group: upstream-sync
+  cancel-in-progress: false
+env:
+  FORK_REPO: nstamoul/devicetype-library
+  BASE_BRANCH: master
+  UPSTREAM_URL: https://github.com/netbox-community/devicetype-library.git
+jobs:
+  sync:
+    if: github.repository == 'nstamoul/devicetype-library'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    defaults:
+      run:
+        shell: bash # explicit bash adds -o pipefail
+    env:
+      # Runs on PRs that change this workflow are dry runs: they test the tooling, nothing more.
+      DRY_RUN: ${{ github.event_name == 'pull_request' || inputs.dry_run == true }}
+      ALLOW_PARALLEL: ${{ inputs.allow_parallel == true }}
+      JOBS_REPO_REF: ${{ inputs.jobs_repo_ref || 'main' }}
+      HAS_JOBS_TOKEN: ${{ secrets.NAUTOBOT_JOBS_REPO_DEPLOY_KEY != '' }}
+      GH_TOKEN: ${{ github.token }}
+      RESULTS: ${{ github.workspace }}/results
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - name: Check out sync tooling
+        uses: actions/checkout@v6
+        with:
+          path: tooling
+          sparse-checkout: .github/scripts
+          persist-credentials: false
+      - name: Check out fork master (full history)
+        uses: actions/checkout@v6
+        with:
+          path: library
+          ref: ${{ env.BASE_BRANCH }}
+          fetch-depth: 0 # a shallow clone has no merge base with upstream
+          # SSH deploy key when set (can push workflow-file changes); falls back to GITHUB_TOKEN.
+          ssh-key: ${{ secrets.UPSTREAM_SYNC_DEPLOY_KEY }}
+      - name: Merge upstream/master into a sync branch
+        id: merge
+        run: tooling/.github/scripts/upstream_sync.sh merge library "$RESULTS" | tee -a "$GITHUB_OUTPUT"
+      - name: Setup Python
+        if: steps.merge.outputs.proceed == 'true'
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: library/requirements.txt
+      - name: Install upstream requirements (pytest, PyYAML, yamllint)
+        if: steps.merge.outputs.proceed == 'true'
+        run: python -m pip install -r library/requirements.txt
+      - name: Check out nautobot_jobs_repo (import contract)
+        id: jobs
+        if: steps.merge.outputs.proceed == 'true' && env.HAS_JOBS_TOKEN == 'true'
+        continue-on-error: true
+        uses: actions/checkout@v6
+        with:
+          repository: nstamoul/nautobot_jobs_repo
+          ref: ${{ env.JOBS_REPO_REF }}
+          ssh-key: ${{ secrets.NAUTOBOT_JOBS_REPO_DEPLOY_KEY }}
+          path: jobs
+          persist-credentials: false
+      - name: Run checks
+        if: steps.merge.outputs.proceed == 'true'
+        env:
+          JOBS_CHECKOUT: ${{ steps.jobs.outcome }}
+        run: |
+          jobs=
+          if [ "$HAS_JOBS_TOKEN" = true ]; then jobs=jobs; fi
+          tooling/.github/scripts/upstream_sync.sh checks library "$RESULTS" $jobs
+      - name: Build PR body
+        id: report
+        if: steps.merge.outputs.proceed == 'true'
+        run: |
+          set +e
+          python3 tooling/.github/scripts/upstream_sync_report.py \
+            --library library \
+            --base "${{ steps.merge.outputs.base }}" \
+            --upstream "${{ steps.merge.outputs.upstream }}" \
+            --results "$RESULTS" \
+            --conflicts "$RESULTS/conflicts.txt" \
+            --jobs-ref "$JOBS_REPO_REF" \
+            --run-url "$RUN_URL" > "$RESULTS/body.md"
+          rc=$?
+          set -e
+          case $rc in
+            0) echo attention=false >> "$GITHUB_OUTPUT" ;;
+            2) echo attention=true >> "$GITHUB_OUTPUT" ;;
+            *) exit "$rc" ;;
+          esac
+          cat "$RESULTS/body.md" >> "$GITHUB_STEP_SUMMARY"
+      - name: Push branch and open PR
+        if: steps.merge.outputs.proceed == 'true' && env.DRY_RUN != 'true'
+        working-directory: library
+        env:
+          BRANCH: ${{ steps.merge.outputs.branch }}
+          ATTENTION: ${{ steps.report.outputs.attention }}
+        run: |
+          if ! git push origin "HEAD:refs/heads/$BRANCH"; then
+            echo "::error::Push failed. If upstream changed .github/workflows/, GITHUB_TOKEN may not push it: set the UPSTREAM_SYNC_DEPLOY_KEY secret (see the header of upstream-sync.yml)."
+            exit 1
+          fi
+          draft=()
+          if [ "$ATTENTION" = true ]; then draft=(--draft); fi
+          # --repo is required: on a fork gh would otherwise target the parent repository.
+          url=$(gh pr create --repo "$FORK_REPO" --base "$BASE_BRANCH" --head "$BRANCH" \
+            --title "Sync upstream netbox-community/devicetype-library ($(date -u +%F))" \
+            --body-file "$RESULTS/body.md" "${draft[@]}")
+          if [ "$ATTENTION" = true ]; then
+            state=failure
+            description="Conflicts or failed checks; see the PR body"
+          else
+            state=success
+            description="Merge clean, all checks passed"
+          fi
+          gh api "repos/$FORK_REPO/statuses/$(git rev-parse HEAD)" \
+            -f state="$state" -f context=upstream-sync/checks \
+            -f description="$description" -f target_url="$RUN_URL" > /dev/null
+          echo "Opened $url" | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Fail the run when the sync needs attention
+        if: steps.report.outputs.attention == 'true' && github.event_name != 'pull_request'
+        run: |
+          echo "::error::Upstream sync needs attention (conflicts or failed checks); see the run summary or the draft PR."
+          exit 1
