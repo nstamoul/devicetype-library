@@ -104,6 +104,8 @@ contract() (
 
 checks() {
   local jobs=${1:-}
+  # Resolve before cd "$library": the workflow passes the jobs checkout relative to the workspace.
+  if [ -n "$jobs" ] && [ -d "$jobs" ]; then jobs=$(cd "$jobs" && pwd); fi
   cd "$library"
   record case_collisions case_collisions
   record yamllint yamllint --strict --format parsable device-types/ module-types/
