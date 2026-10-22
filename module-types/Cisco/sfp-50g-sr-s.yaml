@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-50G-SR-S"
-part_number: "SFP-50G-SR-S"
-description: "Cisco SFP56 25/50 Gbps MMF optic"
+model: SFP-50G-SR-S
+part_number: SFP-50G-SR-S
+description: Cisco SFP56 25/50 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

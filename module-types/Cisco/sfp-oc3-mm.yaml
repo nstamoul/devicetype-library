@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-OC3-MM"
-part_number: "SFP-OC3-MM"
-description: "Cisco SFP 155 Mbps MMF optic"
+model: SFP-OC3-MM
+part_number: SFP-OC3-MM
+description: Cisco SFP 155 Mbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

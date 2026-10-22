@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "MA-CBL-100G-50CM"
-part_number: "MA-CBL-100G-50CM"
-description: "Cisco QSFP28 100 Gbps DAC cable"
+model: MA-CBL-100G-50CM
+part_number: MA-CBL-100G-50CM
+description: Cisco QSFP28 100 Gbps DAC cable
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

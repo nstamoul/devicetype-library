@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "DWDM-SFP-3190"
-part_number: "DWDM-SFP-3190"
-description: "Cisco SFP 1 Gbps SMF optic"
+model: DWDM-SFP-3190
+part_number: DWDM-SFP-3190
+description: Cisco SFP 1 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

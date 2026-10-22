@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "MA-QSFP-40G-SR4"
-part_number: "MA-QSFP-40G-SR4"
-description: "Cisco QSFP+ 40 Gbps MMF optic"
+model: MA-QSFP-40G-SR4
+part_number: MA-QSFP-40G-SR4
+description: Cisco QSFP+ 40 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

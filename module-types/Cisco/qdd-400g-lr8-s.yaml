@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "QDD-400G-LR8-S"
-part_number: "QDD-400G-LR8-S"
-description: "Cisco QSFP-DD 400 Gbps SMF optic"
+model: QDD-400G-LR8-S
+part_number: QDD-400G-LR8-S
+description: Cisco QSFP-DD 400 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

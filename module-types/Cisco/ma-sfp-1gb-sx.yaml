@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "MA-SFP-1GB-SX"
-part_number: "MA-SFP-1GB-SX"
-description: "Cisco SFP 1 Gbps MMF optic"
+model: MA-SFP-1GB-SX
+part_number: MA-SFP-1GB-SX
+description: Cisco SFP 1 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

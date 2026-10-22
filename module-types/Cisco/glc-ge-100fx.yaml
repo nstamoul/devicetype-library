@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "GLC-GE-100FX"
-part_number: "GLC-GE-100FX"
-description: "Cisco SFP 100 Mbps MMF optic"
+model: GLC-GE-100FX
+part_number: GLC-GE-100FX
+description: Cisco SFP 100 Mbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

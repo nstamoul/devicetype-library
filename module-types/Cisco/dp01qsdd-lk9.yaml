@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "DP01QSDD-LK9"
-part_number: "DP01QSDD-LK9"
-description: "Cisco QSFP-DD 100/200/300/400 Gbps SMF optic"
+model: DP01QSDD-LK9
+part_number: DP01QSDD-LK9
+description: Cisco QSFP-DD 100/200/300/400 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

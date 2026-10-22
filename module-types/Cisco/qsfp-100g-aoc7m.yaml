@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "QSFP-100G-AOC7M"
-part_number: "QSFP-100G-AOC7M"
-description: "Cisco QSFP28 100 Gbps AOC cable"
+model: QSFP-100G-AOC7M
+part_number: QSFP-100G-AOC7M
+description: Cisco QSFP28 100 Gbps AOC cable
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "WSP-Q40GLR4L"
-part_number: "WSP-Q40GLR4L"
-description: "Cisco QSFP+ 40 Gbps SMF optic"
+model: WSP-Q40GLR4L
+part_number: WSP-Q40GLR4L
+description: Cisco QSFP+ 40 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

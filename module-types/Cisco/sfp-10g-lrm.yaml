@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-10G-LRM"
-part_number: "SFP-10G-LRM"
-description: "Cisco SFP+ 10 Gbps MMF optic"
+model: SFP-10G-LRM
+part_number: SFP-10G-LRM
+description: Cisco SFP+ 10 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

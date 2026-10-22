@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-TS-OC12STM4-I"
-part_number: "SFP-TS-OC12STM4-I"
-description: "Cisco SFP 155/622 Mbps SMF optic"
+model: SFP-TS-OC12STM4-I
+part_number: SFP-TS-OC12STM4-I
+description: Cisco SFP 155/622 Mbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

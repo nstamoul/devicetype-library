@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-OC48-SR"
-part_number: "SFP-OC48-SR"
-description: "Cisco SFP 2.488 Gbps SMF optic"
+model: SFP-OC48-SR
+part_number: SFP-OC48-SR
+description: Cisco SFP 2.488 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "GLC-EX-SMD"
-part_number: "GLC-EX-SMD"
-description: "Cisco SFP 1 Gbps SMF optic"
+model: GLC-EX-SMD
+part_number: GLC-EX-SMD
+description: Cisco SFP 1 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

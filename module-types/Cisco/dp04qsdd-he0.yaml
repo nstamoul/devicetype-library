@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "DP04QSDD-HE0"
-part_number: "DP04QSDD-HE0"
-description: "Cisco QSFP-DD 400 Gbps SMF optic"
+model: DP04QSDD-HE0
+part_number: DP04QSDD-HE0
+description: Cisco QSFP-DD 400 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

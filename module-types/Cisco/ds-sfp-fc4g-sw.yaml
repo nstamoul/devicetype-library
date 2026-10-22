@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "DS-SFP-FC4G-SW"
-part_number: "DS-SFP-FC4G-SW"
-description: "Cisco SFP+ 4 Gbps MMF optic"
+model: DS-SFP-FC4G-SW
+part_number: DS-SFP-FC4G-SW
+description: Cisco SFP+ 4 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

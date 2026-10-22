@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "QSFP-100G-SR1.2"
-part_number: "QSFP-100G-SR1.2"
-description: "Cisco QSFP28 100 Gbps MMF optic"
+model: QSFP-100G-SR1.2
+part_number: QSFP-100G-SR1.2
+description: Cisco QSFP28 100 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

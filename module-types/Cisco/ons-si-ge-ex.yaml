@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "ONS-SI-GE-EX"
-part_number: "ONS-SI-GE-EX"
-description: "Cisco SFP 1 Gbps SMF optic"
+model: ONS-SI-GE-EX
+part_number: ONS-SI-GE-EX
+description: Cisco SFP 1 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

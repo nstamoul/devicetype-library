@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "QSFP-400G-DR4"
-part_number: "QSFP-400G-DR4"
-description: "Cisco QSFP112 400 Gbps SMF optic"
+model: QSFP-400G-DR4
+part_number: QSFP-400G-DR4
+description: Cisco QSFP112 400 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

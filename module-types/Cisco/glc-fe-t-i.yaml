@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "GLC-FE-T-I"
-part_number: "GLC-FE-T-I"
-description: "Cisco SFP 100 Mbps Copper copper"
+model: GLC-FE-T-I
+part_number: GLC-FE-T-I
+description: Cisco SFP 100 Mbps Copper copper
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

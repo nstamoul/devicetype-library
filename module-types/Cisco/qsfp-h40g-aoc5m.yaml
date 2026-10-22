@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "QSFP-H40G-AOC5M"
-part_number: "QSFP-H40G-AOC5M"
-description: "Cisco QSFP+ 40 Gbps AOC cable"
+model: QSFP-H40G-AOC5M
+part_number: QSFP-H40G-AOC5M
+description: Cisco QSFP+ 40 Gbps AOC cable
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

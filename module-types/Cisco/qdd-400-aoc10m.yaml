@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "QDD-400-AOC10M"
-part_number: "QDD-400-AOC10M"
-description: "Cisco QSFP-DD 400 Gbps AOC cable"
+model: QDD-400-AOC10M
+part_number: QDD-400-AOC10M
+description: Cisco QSFP-DD 400 Gbps AOC cable
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

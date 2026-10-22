@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "SFP-OC12-SR"
-part_number: "SFP-OC12-SR"
-description: "Cisco SFP 622 Mbps SMF optic"
+model: SFP-OC12-SR
+part_number: SFP-OC12-SR
+description: Cisco SFP 622 Mbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "QDD-400G-SR4.2-BD"
-part_number: "QDD-400G-SR4.2-BD"
-description: "Cisco QSFP-DD 400 Gbps MMF optic"
+model: QDD-400G-SR4.2-BD
+part_number: QDD-400G-SR4.2-BD
+description: Cisco QSFP-DD 400 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

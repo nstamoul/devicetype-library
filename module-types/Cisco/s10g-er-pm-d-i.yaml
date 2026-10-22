@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "S10G-ER-PM-D-I"
-part_number: "S10G-ER-PM-D-I"
-description: "Cisco SFP+ 10 Gbps SMF optic"
+model: S10G-ER-PM-D-I
+part_number: S10G-ER-PM-D-I
+description: Cisco SFP+ 10 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

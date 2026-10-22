@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "GLC-FE-100BX-D"
-part_number: "GLC-FE-100BX-D"
-description: "Cisco SFP 100 Mbps SMF optic"
+model: GLC-FE-100BX-D
+part_number: GLC-FE-100BX-D
+description: Cisco SFP 100 Mbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

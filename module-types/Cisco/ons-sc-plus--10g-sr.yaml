@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "ONS-SC+-10G-SR"
-part_number: "ONS-SC+-10G-SR"
-description: "Cisco SFP+ 10 Gbps MMF optic"
+model: ONS-SC+-10G-SR
+part_number: ONS-SC+-10G-SR
+description: Cisco SFP+ 10 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "ONS-SC+-10GEPXX.X"
-part_number: "ONS-SC+-10GEPXX.X"
-description: "Cisco SFP+ 10 Gbps SMF optic"
+model: ONS-SC+-10GEPXX.X
+part_number: ONS-SC+-10GEPXX.X
+description: Cisco SFP+ 10 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

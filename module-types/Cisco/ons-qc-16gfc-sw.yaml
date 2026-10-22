@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "ONS-QC-16GFC-SW"
-part_number: "ONS-QC-16GFC-SW"
-description: "Cisco QSFP28 16 Gbps MMF optic"
+model: ONS-QC-16GFC-SW
+part_number: ONS-QC-16GFC-SW
+description: Cisco QSFP28 16 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

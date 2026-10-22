@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "FET-10G"
-part_number: "FET-10G"
-description: "Cisco SFP+ 10 Gbps MMF optic"
+model: FET-10G
+part_number: FET-10G
+description: Cisco SFP+ 10 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

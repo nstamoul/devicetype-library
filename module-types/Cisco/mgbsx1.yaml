@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "MGBSX1"
-part_number: "MGBSX1"
-description: "Cisco SFP 1 Gbps MMF optic"
+model: MGBSX1
+part_number: MGBSX1
+description: Cisco SFP 1 Gbps MMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

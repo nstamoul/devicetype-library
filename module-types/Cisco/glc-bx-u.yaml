@@ -1,8 +1,8 @@
 ---
 manufacturer: Cisco
-model: "GLC-BX-U"
-part_number: "GLC-BX-U"
-description: "Cisco SFP 1 Gbps SMF optic"
+model: GLC-BX-U
+part_number: GLC-BX-U
+description: Cisco SFP 1 Gbps SMF optic
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 
