@@ -112,9 +112,9 @@ checks() {
   record definitions python -m pytest -q -p no:cacheprovider --tb=short tests/definitions_test.py
 
   if [ -z "$jobs" ]; then
-    echo "skipped: NAUTOBOT_JOBS_REPO_TOKEN secret is not set" >"$results/contract.rc"
+    echo "skipped: NAUTOBOT_JOBS_REPO_DEPLOY_KEY secret is not set" >"$results/contract.rc"
   elif [ -n "${JOBS_CHECKOUT:-}" ] && [ "$JOBS_CHECKOUT" != success ]; then
-    echo "Could not check out nstamoul/nautobot_jobs_repo@${JOBS_REPO_REF:-main}; check NAUTOBOT_JOBS_REPO_TOKEN." \
+    echo "Could not check out nstamoul/nautobot_jobs_repo@${JOBS_REPO_REF:-main}; check NAUTOBOT_JOBS_REPO_DEPLOY_KEY." \
       >"$results/contract.log"
     echo 1 >"$results/contract.rc"
   elif [ ! -f "$jobs/tests/test_device_type_library_contract.py" ]; then

@@ -38,13 +38,19 @@ case-colliding pair is checked out, so the contract can miss what `git ls-files`
 - **Actions** runs on this fork (verified 2026-10-15). If a fork's Actions tab ever shows
   *Workflows aren't being run on this forked repository*, click **I understand my workflows, go
   ahead and enable them**.
-- **`NAUTOBOT_JOBS_REPO_TOKEN`** (repository secret): fine-grained PAT limited to
-  `nstamoul/nautobot_jobs_repo` with **Contents: read**. Without it the contract is skipped.
-- **`UPSTREAM_SYNC_TOKEN`** (optional repository secret): fine-grained PAT limited to
-  `nstamoul/devicetype-library` with **Contents**, **Pull requests**, **Commit statuses** and
-  **Workflows** read/write. The default `GITHUB_TOKEN` cannot push commits that change
-  `.github/workflows/`, which upstream does roughly monthly, and PRs it opens do not trigger
-  `validation.yml`. One PAT that covers both repositories can be stored in both secrets.
+- **`NAUTOBOT_JOBS_REPO_DEPLOY_KEY`** (repository secret): private half of a **read-only**
+  deploy key on `nstamoul/nautobot_jobs_repo` ("devicetype-library upstream-sync (read-only)").
+  Without it the contract is skipped.
+- **`UPSTREAM_SYNC_DEPLOY_KEY`** (repository secret): private half of a **write** deploy key on
+  this repository ("upstream-sync workflow (push sync branches)"). It only pushes the sync branch:
+  the default `GITHUB_TOKEN` cannot push commits that change `.github/workflows/`, which upstream
+  does roughly monthly. Opening the PR and setting the status use `GITHUB_TOKEN`, so
+  **Settings → Actions → General → Allow GitHub Actions to create and approve pull requests**
+  must stay on. PRs opened by `GITHUB_TOKEN` do not trigger `validation.yml`; this workflow runs
+  the same checks itself.
+- Deploy keys were chosen over PATs: each is limited to one repository, and neither expires
+  or depends on a personal account token. Rotate by adding a new key, updating the secret and
+  deleting the old key.
 
 Run by hand from **Actions → Upstream sync → Run workflow**, or:
 

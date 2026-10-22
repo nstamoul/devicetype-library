@@ -2,14 +2,14 @@
 # Fork-only workflow: weekly merge of netbox-community/devicetype-library master into a
 # sync/upstream-<date> branch, checked and opened as a PR for human review. Never pushes master.
 #
-# Secrets (Settings > Secrets and variables > Actions):
-#   NAUTOBOT_JOBS_REPO_TOKEN  fine-grained PAT, repository nstamoul/nautobot_jobs_repo,
-#                             Contents: read. Without it the Nautobot contract is skipped.
-#   UPSTREAM_SYNC_TOKEN       optional fine-grained PAT, repository nstamoul/devicetype-library,
-#                             Contents, Pull requests, Commit statuses and Workflows: read/write.
-#                             GITHUB_TOKEN cannot push commits that touch .github/workflows/
-#                             (upstream does about monthly), and PRs it opens do not trigger
-#                             validation.yml. One PAT covering both repos can fill both secrets.
+# Secrets (Settings > Secrets and variables > Actions), both SSH deploy-key private keys:
+#   NAUTOBOT_JOBS_REPO_DEPLOY_KEY  read-only deploy key on nstamoul/nautobot_jobs_repo. Without
+#                                  it the Nautobot contract is skipped.
+#   UPSTREAM_SYNC_DEPLOY_KEY       write deploy key on this repository, used only to push the
+#                                  sync branch. GITHUB_TOKEN cannot push commits that touch
+#                                  .github/workflows/ (upstream does about monthly); a deploy
+#                                  key can. PRs and statuses use GITHUB_TOKEN, so the PR does not
+#                                  trigger validation.yml; this workflow runs the same checks.
 name: Upstream sync
 on: # yamllint disable-line rule:truthy
   schedule:
@@ -58,8 +58,8 @@ jobs:
       DRY_RUN: ${{ github.event_name == 'pull_request' || inputs.dry_run == true }}
       ALLOW_PARALLEL: ${{ inputs.allow_parallel == true }}
       JOBS_REPO_REF: ${{ inputs.jobs_repo_ref || 'main' }}
-      HAS_JOBS_TOKEN: ${{ secrets.NAUTOBOT_JOBS_REPO_TOKEN != '' }}
-      GH_TOKEN: ${{ secrets.UPSTREAM_SYNC_TOKEN || github.token }}
+      HAS_JOBS_TOKEN: ${{ secrets.NAUTOBOT_JOBS_REPO_DEPLOY_KEY != '' }}
+      GH_TOKEN: ${{ github.token }}
       RESULTS: ${{ github.workspace }}/results
       RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
     steps:
@@ -75,7 +75,8 @@ jobs:
           path: library
           ref: ${{ env.BASE_BRANCH }}
           fetch-depth: 0 # a shallow clone has no merge base with upstream
-          token: ${{ secrets.UPSTREAM_SYNC_TOKEN || github.token }}
+          # SSH deploy key when set (can push workflow-file changes); falls back to GITHUB_TOKEN.
+          ssh-key: ${{ secrets.UPSTREAM_SYNC_DEPLOY_KEY }}
       - name: Merge upstream/master into a sync branch
         id: merge
         run: tooling/.github/scripts/upstream_sync.sh merge library "$RESULTS" | tee -a "$GITHUB_OUTPUT"
@@ -97,7 +98,7 @@ jobs:
         with:
           repository: nstamoul/nautobot_jobs_repo
           ref: ${{ env.JOBS_REPO_REF }}
-          token: ${{ secrets.NAUTOBOT_JOBS_REPO_TOKEN }}
+          ssh-key: ${{ secrets.NAUTOBOT_JOBS_REPO_DEPLOY_KEY }}
           path: jobs
           persist-credentials: false
       - name: Run checks
@@ -137,7 +138,7 @@ jobs:
           ATTENTION: ${{ steps.report.outputs.attention }}
         run: |
           if ! git push origin "HEAD:refs/heads/$BRANCH"; then
-            echo "::error::Push failed. If upstream changed .github/workflows/, GITHUB_TOKEN may not push it: set the UPSTREAM_SYNC_TOKEN secret (see the header of upstream-sync.yml)."
+            echo "::error::Push failed. If upstream changed .github/workflows/, GITHUB_TOKEN may not push it: set the UPSTREAM_SYNC_DEPLOY_KEY secret (see the header of upstream-sync.yml)."
             exit 1
           fi
           draft=()
