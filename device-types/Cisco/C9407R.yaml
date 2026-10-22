@@ -55,3 +55,7 @@ module-bays:
   - name: Power Supply Module 8
     label: PS8
     position: '8'
+  - name: Fan Tray
+    label: Fan
+    position: '1'
+    description: front and rear serviceable and hot-swappable fan tray

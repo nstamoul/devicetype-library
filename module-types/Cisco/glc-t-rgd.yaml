@@ -5,7 +5,7 @@ part_number: "GLC-T-RGD"
 description: "Cisco SFP 10/100/1000 Mbps Copper copper"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 10/100/1000 Mbps |

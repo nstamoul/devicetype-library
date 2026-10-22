@@ -5,7 +5,7 @@ part_number: "QDD-400G-SR8-S"
 description: "Cisco QSFP-DD 400 Gbps MMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 400 Gbps |

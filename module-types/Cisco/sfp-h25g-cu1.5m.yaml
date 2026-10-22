@@ -5,7 +5,7 @@ part_number: "SFP-H25G-CU1.5M"
 description: "Cisco SFP28 25 Gbps DAC cable"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 25 Gbps |

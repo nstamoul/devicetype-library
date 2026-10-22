@@ -5,7 +5,7 @@ part_number: "ONS-QC-16GFC-SW"
 description: "Cisco QSFP28 16 Gbps MMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 16 Gbps |

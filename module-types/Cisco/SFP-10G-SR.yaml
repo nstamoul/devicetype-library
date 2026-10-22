@@ -1,0 +1,37 @@
+---
+manufacturer: Cisco
+model: SFP-10G-SR
+part_number: SFP-10G-SR
+description: Cisco SFP+ 10 Gbps MMF optic
+weight: 75.0
+weight_unit: g
+profile: Transceiver
+attribute_data:
+  phy: 10GBASE-SR
+  media: MMF
+  reach: 400.0
+  data_rate: 10G
+  form_factor: SFP+
+  connector_type: LC/UPC
+comments: |-
+  [Cisco 10GBASE SFP+ modules data sheet](https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/data_sheet_c78-455693.html)
+
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 10 Gbps |
+  | Normalized speeds | 10G |
+  | Default speed | 10G |
+  | Form factor | SFP+ |
+  | Reach | 400m |
+  | Cable type | Duplex Fiber |
+  | Media | MMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | 0 to 70C |
+  | DOM capable | Yes |
+  | End of sale | No |
+interfaces:
+  - name: '{module}'
+    type: 10gbase-sr

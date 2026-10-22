@@ -5,7 +5,7 @@ part_number: "ONS-QDD-OLS"
 description: "Cisco QSFP-DD - SMF ols"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | - |

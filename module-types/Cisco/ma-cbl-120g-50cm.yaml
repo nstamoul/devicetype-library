@@ -5,7 +5,7 @@ part_number: "MA-CBL-120G-50CM"
 description: "Cisco QSFP28 120 Gbps DAC cable"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 120 Gbps |

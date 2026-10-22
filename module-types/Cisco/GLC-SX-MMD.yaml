@@ -1,0 +1,37 @@
+---
+manufacturer: Cisco
+model: GLC-SX-MMD
+part_number: GLC-SX-MMD
+description: Cisco SFP 1 Gbps MMF optic
+weight: 75.0
+weight_unit: g
+profile: Transceiver
+attribute_data:
+  phy: 1000BASE-SX
+  media: MMF
+  reach: 1000.0
+  data_rate: 1G
+  form_factor: SFP
+  connector_type: LC/UPC
+comments: |-
+  [Cisco SFP Modules for Gigabit Ethernet Applications Data Sheet](https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/gigabit-ethernet-gbic-sfp-modules/datasheet-c78-366584.html)
+
+  Generated from Cisco transceiver compatibility data for connectivity planning.
+
+  | Attribute | Value |
+  | --- | --- |
+  | Data rate | 1 Gbps |
+  | Normalized speeds | 1G |
+  | Default speed | 1G |
+  | Form factor | SFP |
+  | Reach | 1000m |
+  | Cable type | Duplex Fiber |
+  | Media | MMF |
+  | Connector type | LC (UPC) |
+  | Transceiver type | Optic |
+  | Case temperature | -5 to 85C |
+  | DOM capable | Yes |
+  | End of sale | No |
+interfaces:
+  - name: '{module}'
+    type: 1000base-sx

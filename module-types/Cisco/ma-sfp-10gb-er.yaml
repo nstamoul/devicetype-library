@@ -5,7 +5,7 @@ part_number: "MA-SFP-10GB-ER"
 description: "Cisco SFP+ 10 Gbps SMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 10 Gbps |

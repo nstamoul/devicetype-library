@@ -34,3 +34,7 @@ module-bays:
   - name: Power Supply Module 4
     label: PS4
     position: '4'
+  - name: Fan Tray
+    label: Fan
+    position: '1'
+    description: front and rear serviceable and hot-swappable fan tray

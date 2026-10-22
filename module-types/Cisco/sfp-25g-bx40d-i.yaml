@@ -5,7 +5,7 @@ part_number: "SFP-25G-BX40D-I"
 description: "Cisco SFP28 25 Gbps SMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 25 Gbps |

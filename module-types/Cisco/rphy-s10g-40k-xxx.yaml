@@ -5,7 +5,7 @@ part_number: "RPHY-S10G-40K-XXX"
 description: "Cisco 10 Gbps SMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 10 Gbps |

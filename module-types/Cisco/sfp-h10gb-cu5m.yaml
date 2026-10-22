@@ -5,7 +5,7 @@ part_number: "SFP-H10GB-CU5M"
 description: "Cisco SFP+ 10 Gbps DAC cable"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 10 Gbps |

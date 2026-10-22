@@ -5,7 +5,7 @@ part_number: "DP04QSDD-ER1"
 description: "Cisco QSFP-DD 400 Gbps SMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 400 Gbps |

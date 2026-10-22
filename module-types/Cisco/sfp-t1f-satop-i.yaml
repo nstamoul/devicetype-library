@@ -5,7 +5,7 @@ part_number: "SFP-T1F-SATOP-I"
 description: "Cisco SFP 1.544 Mbps Copper optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 1.544 Mbps |

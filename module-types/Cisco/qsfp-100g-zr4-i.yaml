@@ -5,7 +5,7 @@ part_number: "QSFP-100G-ZR4-I"
 description: "Cisco QSFP28 100 Gbps SMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 100 Gbps |

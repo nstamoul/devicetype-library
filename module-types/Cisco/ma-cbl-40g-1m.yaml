@@ -5,7 +5,7 @@ part_number: "MA-CBL-40G-1M"
 description: "Cisco QSFP+ 40 Gbps DAC cable"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 40 Gbps |

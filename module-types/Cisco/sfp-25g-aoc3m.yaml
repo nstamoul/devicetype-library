@@ -5,7 +5,7 @@ part_number: "SFP-25G-AOC3M"
 description: "Cisco SFP28 25 Gbps AOC cable"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 25 Gbps |

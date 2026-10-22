@@ -5,7 +5,7 @@ part_number: "DWDM-SFP-3268"
 description: "Cisco SFP 1 Gbps SMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 1 Gbps |

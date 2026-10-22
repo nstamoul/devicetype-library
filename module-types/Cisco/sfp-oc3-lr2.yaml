@@ -5,7 +5,7 @@ part_number: "SFP-OC3-LR2"
 description: "Cisco SFP 155 Mbps SMF optic"
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
-  
+
   | Attribute | Value |
   | --- | --- |
   | Data rate | 155 Mbps |
