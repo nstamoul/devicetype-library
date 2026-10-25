@@ -3,6 +3,12 @@ manufacturer: Cisco
 model: SFP-H25G-CU4M
 part_number: SFP-H25G-CU4M
 description: Cisco SFP28 25 Gbps DAC cable
+profile: Transceiver
+attribute_data:
+  media: DAC
+  reach: 4.0
+  data_rate: 25G
+  form_factor: SFP28
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

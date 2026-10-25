@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: S1G-TE-PM-D-I
 part_number: S1G-TE-PM-D-I
 description: Cisco SFP 1 Gbps Copper copper
+profile: Transceiver
+attribute_data:
+  media: Copper
+  reach: 100.0
+  data_rate: 1G
+  form_factor: SFP
+  connector_type: RJ-45
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

@@ -3,6 +3,12 @@ manufacturer: Cisco
 model: QDD-400-AOC5M
 part_number: QDD-400-AOC5M
 description: Cisco QSFP-DD 400 Gbps AOC cable
+profile: Transceiver
+attribute_data:
+  media: AOC
+  reach: 5.0
+  data_rate: 400G
+  form_factor: QSFP-DD
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

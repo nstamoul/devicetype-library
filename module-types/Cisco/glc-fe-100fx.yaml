@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: GLC-FE-100FX
 part_number: GLC-FE-100FX
 description: Cisco SFP 100 Mbps MMF optic
+profile: Transceiver
+attribute_data:
+  media: MMF
+  reach: 2000.0
+  data_rate: 100M
+  form_factor: SFP
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

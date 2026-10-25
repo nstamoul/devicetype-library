@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: SFP-10/25G-LR-I
 part_number: SFP-10/25G-LR-I
 description: Cisco SFP28 10/25 Gbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 10000.0
+  data_rate: 25G
+  form_factor: SFP28
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

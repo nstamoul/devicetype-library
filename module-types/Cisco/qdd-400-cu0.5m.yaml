@@ -3,6 +3,12 @@ manufacturer: Cisco
 model: QDD-400-CU0.5M
 part_number: QDD-400-CU0.5M
 description: Cisco QSFP-DD 400 Gbps DAC cable
+profile: Transceiver
+attribute_data:
+  media: DAC
+  reach: 0.5
+  data_rate: 400G
+  form_factor: QSFP-DD
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

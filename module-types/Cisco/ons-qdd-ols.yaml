@@ -3,6 +3,12 @@ manufacturer: Cisco
 model: ONS-QDD-OLS
 part_number: ONS-QDD-OLS
 description: Cisco QSFP-DD - SMF ols
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 150000.0
+  form_factor: QSFP-DD
+  connector_type: LC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

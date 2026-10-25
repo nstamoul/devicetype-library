@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: QSFP-400G-VR4
 part_number: QSFP-400G-VR4
 description: Cisco QSFP112 400 Gbps MMF optic
+profile: Transceiver
+attribute_data:
+  media: MMF
+  reach: 50.0
+  data_rate: 400G
+  form_factor: QSFP112
+  connector_type: MPO-12/APC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

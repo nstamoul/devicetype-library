@@ -3,6 +3,12 @@ manufacturer: Cisco
 model: QSFP-200-CU3M
 part_number: QSFP-200-CU3M
 description: Cisco QSFP56 200 Gbps DAC cable
+profile: Transceiver
+attribute_data:
+  media: DAC
+  reach: 3.0
+  data_rate: 200G
+  form_factor: QSFP56
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

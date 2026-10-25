@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: SFP-T1F-SATOP-I
 part_number: SFP-T1F-SATOP-I
 description: Cisco SFP 1.544 Mbps Copper optic
+profile: Transceiver
+attribute_data:
+  media: Copper
+  reach: 200.0
+  data_rate: 1.544M
+  form_factor: SFP
+  connector_type: RJ-45
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

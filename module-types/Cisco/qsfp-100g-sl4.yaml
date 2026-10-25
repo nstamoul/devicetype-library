@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: QSFP-100G-SL4
 part_number: QSFP-100G-SL4
 description: Cisco QSFP28 100 Gbps MMF optic
+profile: Transceiver
+attribute_data:
+  media: MMF
+  reach: 30.0
+  data_rate: 100G
+  form_factor: QSFP28
+  connector_type: MPO-12/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

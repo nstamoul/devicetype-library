@@ -3,6 +3,12 @@ manufacturer: Cisco
 model: QSFP-H40G-ACU7M
 part_number: QSFP-H40G-ACU7M
 description: Cisco QSFP+ 40 Gbps DAC cable
+profile: Transceiver
+attribute_data:
+  media: DAC
+  reach: 7.0
+  data_rate: 40G
+  form_factor: QSFP+
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

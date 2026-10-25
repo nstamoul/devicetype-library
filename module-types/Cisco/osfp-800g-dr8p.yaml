@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: OSFP-800G-DR8P
 part_number: OSFP-800G-DR8P
 description: Cisco OSFP 800 Gbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 500.0
+  data_rate: 800G
+  form_factor: OSFP
+  connector_type: MPO-16/APC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

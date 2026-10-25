@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: SFP-OC48-LR2
 part_number: SFP-OC48-LR2
 description: Cisco SFP 2.488 Gbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 40000.0
+  data_rate: 2.488G
+  form_factor: SFP
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

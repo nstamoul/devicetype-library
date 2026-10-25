@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: QSFP-100G-PSM4-S
 part_number: QSFP-100G-PSM4-S
 description: Cisco QSFP28 100 Gbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 500.0
+  data_rate: 100G
+  form_factor: QSFP28
+  connector_type: MPO-12/APC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

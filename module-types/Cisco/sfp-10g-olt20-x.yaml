@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: SFP-10G-OLT20-X
 part_number: SFP-10G-OLT20-X
 description: Cisco SFP+ 10 Gbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 20000.0
+  data_rate: 10G
+  form_factor: SFP+
+  connector_type: SC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

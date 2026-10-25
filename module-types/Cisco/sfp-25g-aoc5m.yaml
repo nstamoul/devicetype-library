@@ -3,6 +3,12 @@ manufacturer: Cisco
 model: SFP-25G-AOC5M
 part_number: SFP-25G-AOC5M
 description: Cisco SFP28 25 Gbps AOC cable
+profile: Transceiver
+attribute_data:
+  media: AOC
+  reach: 5.0
+  data_rate: 25G
+  form_factor: SFP28
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

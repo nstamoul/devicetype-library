@@ -3,6 +3,12 @@ manufacturer: Cisco
 model: MA-CBL-100G-1M
 part_number: MA-CBL-100G-1M
 description: Cisco QSFP28 100 Gbps DAC cable
+profile: Transceiver
+attribute_data:
+  media: DAC
+  reach: 1.0
+  data_rate: 100G
+  form_factor: QSFP28
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 
