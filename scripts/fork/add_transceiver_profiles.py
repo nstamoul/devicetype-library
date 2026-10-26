@@ -7,11 +7,13 @@ from the markdown attribute table kept in ``comments``.
 
 Only files that (a) live under ``module-types/``, (b) do not exist in
 ``upstream/master``, (c) contain the "Generated from Cisco transceiver
-compatibility data" table and (d) have no ``profile`` key yet are touched.
+compatibility data" table and (d) either have no ``profile`` key yet (converted) or
+already carry ``profile: Transceiver`` (derived attribute_data keys are refreshed).
 The new keys are inserted as text, right after the identity keys
 (manufacturer/model/part_number/description/weight/weight_unit/airflow), so
 nothing else in the file is reformatted and the table stays unchanged.
-The script is idempotent: converted files have a ``profile`` key and are skipped.
+``data_rate`` is the nominal (maximum) line rate: the highest "Normalized speeds" entry.
+The script is idempotent: a second run changes nothing.
 
 Usage (from the repository root, after ``git fetch upstream``):
 
@@ -31,6 +33,7 @@ MARKER = "Generated from Cisco transceiver compatibility data"
 IDENTITY_KEYS = {"manufacturer", "model", "part_number", "description", "weight", "weight_unit", "airflow"}
 # Key order follows upstream's Transceiver files (phy is not derivable from the table).
 ATTRIBUTE_ORDER = ("phy", "media", "reach", "data_rate", "form_factor", "connector_type")
+DERIVED_KEYS = set(ATTRIBUTE_ORDER) - {"phy"}
 TOP_LEVEL_KEY = re.compile(r"^([A-Za-z0-9_-]+):(?:\s|$)")
 ROW = re.compile(r"^\|\s*(.+?)\s*\|\s*(.*?)\s*\|\s*$")
 MISSING = {"", "-", "n/a", "na", "none"}
@@ -98,15 +101,22 @@ def parse_rate(value):
     return f"{m.group(1)}{m.group(2)}" if m else None
 
 
+def rate_to_mbps(rate):
+    value, unit = re.fullmatch(r"([0-9]+(?:\.[0-9]+)?)([GM])", rate).groups()
+    return Decimal(value) * (1000 if unit == "G" else 1)
+
+
 def derive_data_rate(table):
-    # Default speed first; then a single normalized speed; then a single-valued "Data rate".
-    rate = parse_rate(table.get("Default speed"))
-    if rate:
-        return rate
-    normalized = [s.strip() for s in table.get("Normalized speeds", "").split(",") if present(s)]
-    if len(normalized) == 1 and parse_rate(normalized[0]):
-        return parse_rate(normalized[0])
-    return parse_rate(table.get("Data rate"))
+    """Nominal (maximum) line rate, as in upstream's multirate optics (GLC-T -> 1G, SFP-10G-T-X -> 10G).
+
+    Highest entry of "Normalized speeds"; else "Default speed" (which can be the
+    lowest supported rate, so it is only a fallback); else a single-valued "Data rate".
+    """
+    normalized = [parse_rate(s) for s in table.get("Normalized speeds", "").split(",") if present(s)]
+    normalized = [r for r in normalized if r]
+    if normalized:
+        return max(normalized, key=rate_to_mbps)
+    return parse_rate(table.get("Default speed")) or parse_rate(table.get("Data rate"))
 
 
 def derive_attributes(table):
@@ -148,40 +158,66 @@ def fork_only_candidates(upstream_ref):
             yield path
 
 
+def replace_attribute_data(text, attributes):
+    """Rewrite the existing top-level attribute_data block in place."""
+    lines = text.split("\n")
+    start = next(i for i, line in enumerate(lines) if line.startswith("attribute_data:"))
+    end = start + 1
+    while end < len(lines) and lines[end].startswith(" "):
+        end += 1
+    lines[start:end] = render_block(attributes)[1:]
+    return "\n".join(lines)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("--dry-run", action="store_true", help="report only; do not write files")
     parser.add_argument("--upstream-ref", default="upstream/master")
     args = parser.parse_args()
 
-    converted, skipped = [], []
+    converted, updated, skipped = [], [], []
     for path in fork_only_candidates(args.upstream_ref):
         text = path.read_text(encoding="utf-8")
         if MARKER not in text:
             continue
         data = yaml.safe_load(text)
+        derived = derive_attributes(parse_table(data.get("comments", "")))
         if "profile" in data or "attribute_data" in data:
-            continue
-        attributes = derive_attributes(parse_table(data.get("comments", "")))
-        if not attributes:
-            skipped.append((path, "table has no usable attributes"))
-            continue
-        new_text = insert_block(text, render_block(attributes))
+            if data.get("profile") != "Transceiver" or not isinstance(data.get("attribute_data"), dict):
+                continue
+            # Previously converted: refresh derived keys, keep any others (e.g. a hand-added phy).
+            merged = {**data["attribute_data"], **derived}
+            for key in DERIVED_KEYS - derived.keys():
+                merged.pop(key, None)
+            attributes = {k: merged[k] for k in ATTRIBUTE_ORDER if k in merged}
+            if attributes == data["attribute_data"]:
+                continue
+            new_text = replace_attribute_data(text, attributes)
+            target = updated
+        else:
+            if not derived:
+                skipped.append((path, "table has no usable attributes"))
+                continue
+            attributes = derived
+            new_text = insert_block(text, render_block(attributes))
+            target = converted
         check = yaml.safe_load(new_text)
-        if check["attribute_data"] != attributes or {k: v for k, v in check.items() if k not in ("profile", "attribute_data")} != {
-            k: v for k, v in data.items()
-        }:
-            raise RuntimeError(f"{path}: round-trip mismatch after insertion")
+        rest = lambda d: {k: v for k, v in d.items() if k not in ("profile", "attribute_data")}  # noqa: E731
+        if check["attribute_data"] != attributes or rest(check) != rest(data):
+            raise RuntimeError(f"{path}: round-trip mismatch after edit")
         if not args.dry_run:
             path.write_text(new_text, encoding="utf-8")
-        converted.append(path)
+        target.append(path)
 
     print(f"converted: {len(converted)}{' (dry run)' if args.dry_run else ''}")
+    print(f"updated: {len(updated)}")
     print(f"skipped (insufficient data): {len(skipped)}")
     for path, reason in skipped:
         print(f"  {path}: {reason}")
     for path in converted:
         print(f"  + {path}")
+    for path in updated:
+        print(f"  ~ {path}")
     return 0
 
 

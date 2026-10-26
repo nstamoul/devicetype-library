@@ -7,7 +7,7 @@ profile: Transceiver
 attribute_data:
   media: MMF
   reach: 125.0
-  data_rate: 4.25G
+  data_rate: 14.025G
   form_factor: SFP+
   connector_type: LC/UPC
 comments: |-
