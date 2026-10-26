@@ -3,6 +3,12 @@ manufacturer: Cisco
 model: SFP-H10GB-CU2M
 part_number: SFP-H10GB-CU2M
 description: Cisco SFP+ 10 Gbps DAC cable
+profile: Transceiver
+attribute_data:
+  media: DAC
+  reach: 2.0
+  data_rate: 10G
+  form_factor: SFP+
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: SFP-CH-OC3STM1-I
 part_number: SFP-CH-OC3STM1-I
 description: Cisco SFP 155 Mbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 15000.0
+  data_rate: 155M
+  form_factor: SFP
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

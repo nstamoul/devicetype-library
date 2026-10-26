@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: OSFP-800G-VR8
 part_number: OSFP-800G-VR8
 description: Cisco OSFP 800 Gbps MMF optic
+profile: Transceiver
+attribute_data:
+  media: MMF
+  reach: 50.0
+  data_rate: 800G
+  form_factor: OSFP
+  connector_type: Dual MPO-12/APC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

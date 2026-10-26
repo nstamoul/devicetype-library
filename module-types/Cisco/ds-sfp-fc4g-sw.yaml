@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: DS-SFP-FC4G-SW
 part_number: DS-SFP-FC4G-SW
 description: Cisco SFP+ 4 Gbps MMF optic
+profile: Transceiver
+attribute_data:
+  media: MMF
+  reach: 380.0
+  data_rate: 4G
+  form_factor: SFP+
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

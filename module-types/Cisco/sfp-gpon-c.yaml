@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: SFP-GPON-C
 part_number: SFP-GPON-C
 description: Cisco SFP 1.244/2.488 Gbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 20000.0
+  data_rate: 2.488G
+  form_factor: SFP
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

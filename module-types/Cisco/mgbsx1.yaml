@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: MGBSX1
 part_number: MGBSX1
 description: Cisco SFP 1 Gbps MMF optic
+profile: Transceiver
+attribute_data:
+  media: MMF
+  reach: 500.0
+  data_rate: 1G
+  form_factor: SFP
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

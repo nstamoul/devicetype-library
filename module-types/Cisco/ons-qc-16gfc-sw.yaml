@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: ONS-QC-16GFC-SW
 part_number: ONS-QC-16GFC-SW
 description: Cisco QSFP28 16 Gbps MMF optic
+profile: Transceiver
+attribute_data:
+  media: MMF
+  reach: 100.0
+  data_rate: 16G
+  form_factor: QSFP28
+  connector_type: MPO-12
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

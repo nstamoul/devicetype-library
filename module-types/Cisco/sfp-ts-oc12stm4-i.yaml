@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: SFP-TS-OC12STM4-I
 part_number: SFP-TS-OC12STM4-I
 description: Cisco SFP 155/622 Mbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 40000.0
+  data_rate: 622M
+  form_factor: SFP
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

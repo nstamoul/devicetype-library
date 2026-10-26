@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: SFP-10G-SR-S
 part_number: SFP-10G-SR-S
 description: Cisco SFP+ 10 Gbps MMF optic
+profile: Transceiver
+attribute_data:
+  media: MMF
+  reach: 400.0
+  data_rate: 10G
+  form_factor: SFP+
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

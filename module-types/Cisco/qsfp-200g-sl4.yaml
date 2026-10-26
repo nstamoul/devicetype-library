@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: QSFP-200G-SL4
 part_number: QSFP-200G-SL4
 description: Cisco QSFP56 200 Gbps MMF optic
+profile: Transceiver
+attribute_data:
+  media: MMF
+  reach: 30.0
+  data_rate: 200G
+  form_factor: QSFP56
+  connector_type: MPO-12/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

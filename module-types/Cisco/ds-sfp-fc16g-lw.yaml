@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: DS-SFP-FC16G-LW
 part_number: DS-SFP-FC16G-LW
 description: Cisco SFP+ 14.025/8.5/4.25 Gbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 10000.0
+  data_rate: 14.025G
+  form_factor: SFP+
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

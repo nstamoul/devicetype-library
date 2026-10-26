@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: GLC-FE-T-I
 part_number: GLC-FE-T-I
 description: Cisco SFP 100 Mbps Copper copper
+profile: Transceiver
+attribute_data:
+  media: Copper
+  reach: 100.0
+  data_rate: 100M
+  form_factor: SFP
+  connector_type: RJ-45
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

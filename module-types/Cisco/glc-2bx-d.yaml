@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: GLC-2BX-D
 part_number: GLC-2BX-D
 description: Cisco SFP 1 Gbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 10000.0
+  data_rate: 1G
+  form_factor: SFP
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

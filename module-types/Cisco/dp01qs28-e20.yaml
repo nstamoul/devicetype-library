@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: DP01QS28-E20
 part_number: DP01QS28-E20
 description: Cisco QSFP28 100 Gbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 300000.0
+  data_rate: 100G
+  form_factor: QSFP28
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: SFP-T3F-SATOP-I
 part_number: SFP-T3F-SATOP-I
 description: Cisco SFP 44.736 Mbps Copper optic
+profile: Transceiver
+attribute_data:
+  media: Copper
+  reach: 137.0
+  data_rate: 44.736M
+  form_factor: SFP
+  connector_type: Mini Coax
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

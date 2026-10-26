@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: OSFPR-800G-DR8
 part_number: OSFPR-800G-DR8
 description: Cisco OSFP-RHS 800 Gbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 500.0
+  data_rate: 800G
+  form_factor: OSFP-RHS
+  connector_type: Dual MPO-12/APC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

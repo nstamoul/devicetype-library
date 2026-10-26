@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: SFP-OC3-MM
 part_number: SFP-OC3-MM
 description: Cisco SFP 155 Mbps MMF optic
+profile: Transceiver
+attribute_data:
+  media: MMF
+  reach: 2000.0
+  data_rate: 155M
+  form_factor: SFP
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

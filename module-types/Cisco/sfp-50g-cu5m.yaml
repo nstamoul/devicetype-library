@@ -3,6 +3,12 @@ manufacturer: Cisco
 model: SFP-50G-CU5M
 part_number: SFP-50G-CU5M
 description: Cisco SFP56 25/50 Gbps DAC cable
+profile: Transceiver
+attribute_data:
+  media: DAC
+  reach: 5.0
+  data_rate: 50G
+  form_factor: SFP56
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

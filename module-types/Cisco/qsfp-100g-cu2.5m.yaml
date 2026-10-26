@@ -3,6 +3,12 @@ manufacturer: Cisco
 model: QSFP-100G-CU2.5M
 part_number: QSFP-100G-CU2.5M
 description: Cisco QSFP28 100 Gbps DAC cable
+profile: Transceiver
+attribute_data:
+  media: DAC
+  reach: 2.5
+  data_rate: 100G
+  form_factor: QSFP28
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

@@ -3,6 +3,12 @@ manufacturer: Cisco
 model: MA-CBL-120G-3M
 part_number: MA-CBL-120G-3M
 description: Cisco QSFP28 120 Gbps DAC cable
+profile: Transceiver
+attribute_data:
+  media: DAC
+  reach: 3.0
+  data_rate: 120G
+  form_factor: QSFP28
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

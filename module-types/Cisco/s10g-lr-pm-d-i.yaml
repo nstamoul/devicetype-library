@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: S10G-LR-PM-D-I
 part_number: S10G-LR-PM-D-I
 description: Cisco SFP+ 10 Gbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 10000.0
+  data_rate: 10G
+  form_factor: SFP+
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

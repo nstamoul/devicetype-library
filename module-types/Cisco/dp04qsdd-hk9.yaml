@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: DP04QSDD-HK9
 part_number: DP04QSDD-HK9
 description: Cisco QSFP-DD 100/200/300/400 Gbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 100000.0
+  data_rate: 400G
+  form_factor: QSFP-DD
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

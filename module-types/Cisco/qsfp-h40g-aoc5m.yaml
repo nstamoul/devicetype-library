@@ -3,6 +3,12 @@ manufacturer: Cisco
 model: QSFP-H40G-AOC5M
 part_number: QSFP-H40G-AOC5M
 description: Cisco QSFP+ 40 Gbps AOC cable
+profile: Transceiver
+attribute_data:
+  media: AOC
+  reach: 5.0
+  data_rate: 40G
+  form_factor: QSFP+
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

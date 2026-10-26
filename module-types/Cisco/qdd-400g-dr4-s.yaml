@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: QDD-400G-DR4-S
 part_number: QDD-400G-DR4-S
 description: Cisco QSFP-DD 400 Gbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 500.0
+  data_rate: 400G
+  form_factor: QSFP-DD
+  connector_type: MPO-12/APC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

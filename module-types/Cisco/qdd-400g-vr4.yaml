@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: QDD-400G-VR4
 part_number: QDD-400G-VR4
 description: Cisco QSFP-DD 400 Gbps MMF optic
+profile: Transceiver
+attribute_data:
+  media: MMF
+  reach: 50.0
+  data_rate: 400G
+  form_factor: QSFP-DD
+  connector_type: MPO-12/APC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

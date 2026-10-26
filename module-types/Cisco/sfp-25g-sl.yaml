@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: SFP-25G-SL
 part_number: SFP-25G-SL
 description: Cisco SFP28 25 Gbps MMF optic
+profile: Transceiver
+attribute_data:
+  media: MMF
+  reach: 30.0
+  data_rate: 25G
+  form_factor: SFP28
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

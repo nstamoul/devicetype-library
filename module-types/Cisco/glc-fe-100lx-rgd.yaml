@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: GLC-FE-100LX-RGD
 part_number: GLC-FE-100LX-RGD
 description: Cisco SFP 100 Mbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 10000.0
+  data_rate: 100M
+  form_factor: SFP
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

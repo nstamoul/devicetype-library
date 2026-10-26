@@ -3,6 +3,13 @@ manufacturer: Cisco
 model: WSP-Q40GLR4L
 part_number: WSP-Q40GLR4L
 description: Cisco QSFP+ 40 Gbps SMF optic
+profile: Transceiver
+attribute_data:
+  media: SMF
+  reach: 2000.0
+  data_rate: 40G
+  form_factor: QSFP+
+  connector_type: LC/UPC
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 

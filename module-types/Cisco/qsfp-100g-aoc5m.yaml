@@ -3,6 +3,12 @@ manufacturer: Cisco
 model: QSFP-100G-AOC5M
 part_number: QSFP-100G-AOC5M
 description: Cisco QSFP28 100 Gbps AOC cable
+profile: Transceiver
+attribute_data:
+  media: AOC
+  reach: 5.0
+  data_rate: 100G
+  form_factor: QSFP28
 comments: |-
   Generated from Cisco transceiver compatibility data for connectivity planning.
 
