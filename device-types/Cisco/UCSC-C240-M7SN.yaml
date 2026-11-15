@@ -6,7 +6,8 @@ part_number: UCSC-C240-M7SN
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear
-comments: 'Cisco UCS C240 M7 SFF NVMe rack server (24 front NVMe drive bays, M.2 boot RAID). Module bay positions are the CIMC slot identifiers (Redfish PCIeDevices/NetworkAdapters/PowerSupplies Id) so that inventory importers can place modules by position.'
+comments: Cisco UCS C240 M7 SFF NVMe rack server (24 front NVMe drive bays, M.2 boot RAID). Module bay positions are the CIMC slot identifiers (Redfish
+  PCIeDevices/NetworkAdapters/PowerSupplies Id) so that inventory importers can place modules by position.
 console-ports:
   - name: Console
     type: rj-45

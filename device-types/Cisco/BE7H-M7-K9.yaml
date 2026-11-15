@@ -6,7 +6,8 @@ part_number: BE7H-M7-K9
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear
-comments: 'Cisco Business Edition 7000H M7 appliance, built on the UCS C240 M7 SFF platform (front SAS bays behind a tri-mode RAID controller). Module bay positions are the CIMC slot identifiers (Redfish PCIeDevices/NetworkAdapters/PowerSupplies Id) so that inventory importers can place modules by position.'
+comments: Cisco Business Edition 7000H M7 appliance, built on the UCS C240 M7 SFF platform (front SAS bays behind a tri-mode RAID controller). Module bay
+  positions are the CIMC slot identifiers (Redfish PCIeDevices/NetworkAdapters/PowerSupplies Id) so that inventory importers can place modules by position.
 console-ports:
   - name: Console
     type: rj-45
